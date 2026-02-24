@@ -1,0 +1,255 @@
+(footprint "1X03_LOCK_LONGPADS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Plated Through Hole - 3 Pin Long Pad w/ Locking Footprint Holes are offset 0.005\" from center to lock pins in place while soldering.\n\nSpecifications:\n\n• Pin count:3\n• Pin pitch:0.1\"\n\nExample device(s):\n\n• CONN_03")
+	(property "Reference" "REF**"
+		(at -1.27 -1.778 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "94952947-aa3c-4824-8e49-0c6917f1af9c")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "1X03_LOCK_LONGPADS"
+		(at -1.27 2.413 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d28b07e4-ae95-47bb-953d-c57d556b385b")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" "1X03_LOCK_LONGPADS"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52d218e7-dc67-45d1-ba49-3f0cb756cced")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d69d449-3dd5-4925-aabf-758ea4672465")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "666f597a-836a-4859-8c30-0e761f6ccb68")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_line
+		(start -1.27 -0.8636)
+		(end -0.9906 -1.143)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "408d0a68-85aa-4e9d-8878-6be6112b8c60")
+	)
+	(fp_line
+		(start -1.27 0.127)
+		(end -1.27 -0.8636)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a493619a-83ed-4b9b-b34c-65b8580eed53")
+	)
+	(fp_line
+		(start -1.27 0.127)
+		(end -1.27 1.1176)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8142c0ac-c978-424b-ba6d-0522ae888106")
+	)
+	(fp_line
+		(start -1.27 0.127)
+		(end -1.016 0.127)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "382b42c3-9b9d-4221-a73b-6ff7ebe23bbe")
+	)
+	(fp_line
+		(start -1.27 1.1176)
+		(end -0.9906 1.397)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63dbde4c-12ec-46a5-a325-3a26b26bcc17")
+	)
+	(fp_line
+		(start 1.524 0.127)
+		(end 1.016 0.127)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f30a129-2a61-4c3a-a7eb-e04f46cdcaed")
+	)
+	(fp_line
+		(start 4.064 0.127)
+		(end 3.556 0.127)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce45847b-0a68-49e3-8b62-854b09e1d5b7")
+	)
+	(fp_line
+		(start 6.35 -0.8636)
+		(end 6.0706 -1.143)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89f48d29-c9ff-4116-ae0f-ea925403fce9")
+	)
+	(fp_line
+		(start 6.35 0.127)
+		(end 6.096 0.127)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14ee70ee-943a-4c5b-a06a-5fe1cef34b03")
+	)
+	(fp_line
+		(start 6.35 0.127)
+		(end 6.35 -0.8636)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96809183-c3e6-49b2-a84c-65df06b95570")
+	)
+	(fp_line
+		(start 6.35 0.127)
+		(end 6.35 1.1176)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce1e9c3d-9f2a-4b07-ac2b-20262b128a23")
+	)
+	(fp_line
+		(start 6.35 1.1176)
+		(end 6.0706 1.397)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fcea2f37-67d9-4f51-a691-d419c0820bc1")
+	)
+	(fp_poly
+		(pts
+			(xy -0.2921 0.4191) (xy 0.2921 0.4191) (xy 0.2921 -0.1651) (xy -0.2921 -0.1651)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "dae76254-270e-4f8a-8263-fdbbc85a97b0")
+	)
+	(fp_poly
+		(pts
+			(xy 2.2479 0.4191) (xy 2.8321 0.4191) (xy 2.8321 -0.1651) (xy 2.2479 -0.1651)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "90608a39-c4e1-408a-afa4-92880d694418")
+	)
+	(fp_poly
+		(pts
+			(xy 4.7879 0.4191) (xy 5.3721 0.4191) (xy 5.3721 -0.1651) (xy 4.7879 -0.1651)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "a5dc06bd-d9c2-4049-b602-9603dbf1759a")
+	)
+	(pad "1" thru_hole oval
+		(at 0 0 90)
+		(size 3.6576 1.8288)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 0)
+		(uuid "60c731eb-c371-404d-91d7-d1d34cca2c59")
+	)
+	(pad "2" thru_hole oval
+		(at 2.54 0.254 90)
+		(size 3.6576 1.8288)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 0)
+		(uuid "d92dd9a7-3f5d-4005-9746-e14b58a7666a")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 0 90)
+		(size 3.6576 1.8288)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 0)
+		(uuid "de0688a6-1438-4c3f-a029-c6496c86347a")
+	)
+)

@@ -1,0 +1,203 @@
+(footprint "MOLEX-1X2_LOCK"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Molex 2-Pin Plated Through-Hole Locking Footprint Holes are offset from center by 0.005\" to hold pins in place during soldering.\n\nSpecifications:\n\n• Pin count:2\n• Pin pitch:0.1\"\n\nDatasheet referenced for footprint\n\nExample device(s):\n\n• CONN_02")
+	(property "Reference" "REF**"
+		(at -1.27 -3.302 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c804a5ca-4257-499e-ba96-eaf58c384cb2")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "MOLEX-1X2_LOCK"
+		(at -1.27 2.794 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "82a121fb-1c58-46aa-8ef2-45c890b10670")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left top)
+		)
+	)
+	(property "Footprint" "MOLEX-1X2_LOCK"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "526fca2f-a391-457f-a223-3173992c1f9e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57117696-bfea-46b7-929f-603faf730b00")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18d249ec-c1f0-4c75-9349-5b4f091c7002")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_line
+		(start -1.27 -3.048)
+		(end -1.27 2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "708aa344-2572-4315-9a7f-6ef83fbab6f2")
+	)
+	(fp_line
+		(start 0 1.27)
+		(end 2.54 1.27)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3b57e67a-3de7-42c6-8979-9155ffff078d")
+	)
+	(fp_line
+		(start 0 2.54)
+		(end -1.27 2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "488c9a6d-1590-4f18-a169-6cc804757bba")
+	)
+	(fp_line
+		(start 0 2.54)
+		(end 0 1.27)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9595f17-8923-4cf0-8cc3-a2253882b758")
+	)
+	(fp_line
+		(start 2.54 1.27)
+		(end 2.54 2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0f97295b-79ee-4393-8c4d-b485eada8da9")
+	)
+	(fp_line
+		(start 2.54 2.54)
+		(end 0 2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cb68badf-0920-4f60-b634-8c5e93ef82ba")
+	)
+	(fp_line
+		(start 3.81 -3.048)
+		(end -1.27 -3.048)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f5e570de-ea2c-4e44-9cca-f24a7a46fdcc")
+	)
+	(fp_line
+		(start 3.81 -3.048)
+		(end 3.81 2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6a4ee4d1-b98a-4b77-ad56-c40a60d2c5bf")
+	)
+	(fp_line
+		(start 3.81 2.54)
+		(end 2.54 2.54)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e43568eb-fc8a-4139-88a8-778e03065c92")
+	)
+	(fp_poly
+		(pts
+			(xy -0.2921 0.2921) (xy 0.2921 0.2921) (xy 0.2921 -0.2921) (xy -0.2921 -0.2921)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "98a0b7ac-dc92-4be8-83c1-94a7c377c406")
+	)
+	(fp_poly
+		(pts
+			(xy 2.2479 0.2921) (xy 2.8321 0.2921) (xy 2.8321 -0.2921) (xy 2.2479 -0.2921)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "b4fcd629-e52c-4c66-9124-765ca69d956e")
+	)
+	(pad "1" thru_hole rect
+		(at -0.127 0)
+		(size 1.8796 1.8796)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 0)
+		(uuid "3179631b-7a5d-4748-bf7e-4f5ec855bdd1")
+	)
+	(pad "2" thru_hole circle
+		(at 2.667 0)
+		(size 1.8796 1.8796)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 0)
+		(uuid "3e065351-87c1-4ac0-9429-cb99e01bd438")
+	)
+)

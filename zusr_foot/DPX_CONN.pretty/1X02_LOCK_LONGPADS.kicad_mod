@@ -1,0 +1,223 @@
+(footprint "1X02_LOCK_LONGPADS"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Plated Through Hole - Long Pads with Locking Footprint Pins are staggered by 0.005\" from center to hold pins in place while soldering.\n\nSpecifications:\n\n• Pin count:2\n• Pin pitch:0.1\"\n\nExample device(s):\n\n• CONN_02")
+	(property "Reference" "REF**"
+		(at -1.27 -1.651 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "83d7f006-3571-4676-ba80-6750436c5274")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "1X02_LOCK_LONGPADS"
+		(at -1.27 2.286 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c6ee4427-dcc4-4b50-b89b-beebfc0c09db")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c14f104-729d-4b29-88ca-9b5c9643047b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89ec8383-648a-41f9-b669-41a868b1805c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ee142a4-0194-4d72-aa70-afea9e05cf32")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -1.27 -0.9906)
+		(end -0.9906 -1.27)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a51b2623-f427-4d9a-9037-1740422c46be")
+	)
+	(fp_line
+		(start -1.27 0)
+		(end -1.27 -0.9906)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "234b9d20-220b-4301-930f-342f0c6c255e")
+	)
+	(fp_line
+		(start -1.27 0)
+		(end -1.27 0.9906)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d20ff84c-e964-44a5-b98c-127257ec497c")
+	)
+	(fp_line
+		(start -1.27 0)
+		(end -1.016 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3dadc44-d08e-4549-b4ab-8991f56c14ee")
+	)
+	(fp_line
+		(start -1.27 0.9906)
+		(end -0.9906 1.27)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55294e7e-9685-42db-b50e-573714b4778d")
+	)
+	(fp_line
+		(start 1.651 0)
+		(end 0.889 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d77f1850-a0f7-445f-9178-cbbfd2f818a1")
+	)
+	(fp_line
+		(start 3.81 -0.9906)
+		(end 3.5306 -1.27)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "543a6180-089f-40f9-a522-b691bfeae709")
+	)
+	(fp_line
+		(start 3.81 0)
+		(end 3.556 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7309761-656e-4964-97ce-d1255ebfbe09")
+	)
+	(fp_line
+		(start 3.81 0)
+		(end 3.81 -0.9906)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5201ddcf-d0bc-45aa-9ec9-35a7b70a1474")
+	)
+	(fp_line
+		(start 3.81 0)
+		(end 3.81 0.9906)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dad3e0b4-0ea1-4581-b974-a10f8dacdb50")
+	)
+	(fp_line
+		(start 3.81 0.9906)
+		(end 3.5306 1.27)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a765ed98-2954-4dec-9c83-a17c06d509ae")
+	)
+	(fp_poly
+		(pts
+			(xy -0.2921 0.2921) (xy 0.2921 0.2921) (xy 0.2921 -0.2921) (xy -0.2921 -0.2921)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "e5710ffb-e2ff-4705-b382-7c0bbad8b350")
+	)
+	(fp_poly
+		(pts
+			(xy 2.2479 0.2921) (xy 2.8321 0.2921) (xy 2.8321 -0.2921) (xy 2.2479 -0.2921)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "70744236-8163-44dc-9bb9-e3eb808ea2c9")
+	)
+	(pad "1" thru_hole oval
+		(at -0.127 0 90)
+		(size 3.6576 1.8288)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 0)
+		(uuid "daa532d9-00bb-4b81-8af4-b8325875d124")
+	)
+	(pad "2" thru_hole oval
+		(at 2.667 0 90)
+		(size 3.6576 1.8288)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 0)
+		(uuid "87206f9e-beca-44f9-a1b0-9ad6c9aff743")
+	)
+)

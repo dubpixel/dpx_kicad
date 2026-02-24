@@ -1,0 +1,274 @@
+(footprint "BAT-TH_BH-AA-A5BJ012"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "0fe1291f-4ada-47aa-a6d4-0837eca59762")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BAT-TH_BH-AA-A5BJ012"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "19c0116c-7457-4046-8c6d-e54c1a7aacc8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e5f0d2b-7ffd-4970-8cbe-30cd04c597c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589838334303232000"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0f24d3a9-514d-4ce5-a453-9d32cd8882aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "AA Battery Holder Nickel - Button And Strip Battery Connector "
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1805501-3c50-4ae8-9680-0cd629ff915b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C5290180"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "ae6767a6-8ec0-454f-97de-c80c6b3d0393")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "MFG" "MYOUNG"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "7499ec0c-5a16-43e2-a149-88994c16d9ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "MP" "BH-AA-A5BJ012"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "b8068257-395d-41f5-937f-05c74475c875")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -30 -8.3)
+		(end -27.78 -8.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "062dc5b6-6512-4ede-b430-5fb82299bbf7")
+	)
+	(fp_line
+		(start -30 8.3)
+		(end -30 -8.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "26c1439e-4417-415c-8b64-32702c2bf332")
+	)
+	(fp_line
+		(start -27.52 -8.3)
+		(end 30 -8.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3cb6a975-5431-40ee-b4a9-3033a9c69a68")
+	)
+	(fp_line
+		(start 30 -8.3)
+		(end 30 8.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9408ce8-4797-450c-9541-605fd3fcc348")
+	)
+	(fp_line
+		(start 30 8.3)
+		(end -30 8.3)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0caf850b-fec6-4562-8017-a6f2750d0a7d")
+	)
+	(fp_circle
+		(center -30 8.3)
+		(end -29.97 8.3)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "dd8d67c6-6c38-40c3-9a02-f14441f2bd6e")
+	)
+	(fp_circle
+		(center -27.65 -7.1)
+		(end -27.25 -7.1)
+		(stroke
+			(width 0.8)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "eee40dcb-dbbe-4e61-bb39-a537b0643689")
+	)
+	(fp_circle
+		(center -20.5 0)
+		(end -19.7 0)
+		(stroke
+			(width 1.6)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "73b3c9f3-8f44-4e41-a965-e707ba6575fb")
+	)
+	(fp_circle
+		(center 20.5 0)
+		(end 21.3 0)
+		(stroke
+			(width 1.6)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "d3f42e6a-1f8d-4b7c-9e56-95afd9d9f837")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "beb27b98-ec22-4396-b110-53d4fe296ba6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" thru_hole circle
+		(at -27.65 -7.1)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+			"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu"
+			"In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu"
+			"In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "84237519-4132-4803-9363-5b680e4939cf")
+	)
+	(pad "" thru_hole circle
+		(at -20.5 0)
+		(size 3.3 3.3)
+		(drill 3.3)
+		(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+			"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu"
+			"In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu"
+			"In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "56ba4a03-c9d6-474e-a5e9-4a21ddfcbfb9")
+	)
+	(pad "" thru_hole circle
+		(at 20.5 0)
+		(size 3.3 3.3)
+		(drill 3.3)
+		(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+			"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu"
+			"In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu"
+			"In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "9ed537dd-437d-4993-890f-958fe8b270d2")
+	)
+	(pad "1" thru_hole circle
+		(at -27.65 0)
+		(size 2.3 2.3)
+		(drill 1.500022)
+		(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+			"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu"
+			"In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu"
+			"In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "73d5b16f-120d-4e81-bc33-4a5717f0e27e")
+	)
+	(pad "2" thru_hole circle
+		(at 27.65 0)
+		(size 2.3 2.3)
+		(drill 1.500022)
+		(layers "*.Cu" "*.Mask" "In3.Cu" "In4.Cu" "In5.Cu" "In6.Cu" "In7.Cu" "In8.Cu"
+			"In9.Cu" "In10.Cu" "In11.Cu" "In12.Cu" "In13.Cu" "In14.Cu" "In15.Cu" "In16.Cu"
+			"In17.Cu" "In18.Cu" "In19.Cu" "In20.Cu" "In21.Cu" "In22.Cu" "In23.Cu"
+			"In24.Cu" "In25.Cu" "In26.Cu" "In27.Cu" "In28.Cu" "In29.Cu" "In30.Cu"
+		)
+		(remove_unused_layers no)
+		(uuid "e8062cb4-92ae-488e-ae67-bc3a7c598ebf")
+	)
+	(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/BAT-TH_BH-AA-A5BJ012.wrl"
+		(offset
+			(xyz 0 -0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

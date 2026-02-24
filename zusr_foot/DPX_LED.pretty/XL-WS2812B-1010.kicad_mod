@@ -1,0 +1,254 @@
+(footprint "XL-WS2812B-1010"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "LED**"
+		(at 0.254 -2.032 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b17dbcce-77c0-4765-8335-bf9b306d13f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "XL-WS2812B-1010"
+		(at 0.05 3.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d31b6215-9e6b-48ca-bc90-465c8f1f5e0a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "XL-WS2812B-1010"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85121427-ca65-4321-a049-374fb4f397cc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7120b8da-21c0-4610-ab90-68b2f5efd788")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c2bfd3f-583c-40bf-b279-55cea15dac73")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -1.066736 0.421881)
+		(end -1.016736 0.521881)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "bcfeabde-4fb6-49a1-9698-8636f54a40a1")
+	)
+	(fp_poly
+		(pts
+			(xy 0.331097 -0.122183) (xy 0.45 0.1) (xy 0.542017 -0.121523)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "d08eef14-2c53-4e5b-b56b-b77f2ecd683f")
+	)
+	(fp_line
+		(start -0.85 -0.85)
+		(end 0.85 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b2581eee-0866-4360-b775-e732ca18e4cc")
+	)
+	(fp_line
+		(start -0.85 0.85)
+		(end -0.85 -0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d45caccb-d437-4b4b-bcbc-40831bdfee83")
+	)
+	(fp_line
+		(start 0.85 -0.85)
+		(end 0.85 0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ddd51f9e-b681-4240-b593-c86d66ef15f4")
+	)
+	(fp_line
+		(start 0.85 0.85)
+		(end -0.85 0.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4052ea05-1a00-41dd-bd5d-4c8bf1b879f0")
+	)
+	(fp_line
+		(start -0.734 -0.734)
+		(end 0.734 -0.734)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31a17a3a-7ce8-44e7-b6a2-287312772a20")
+	)
+	(fp_line
+		(start -0.734 0.734)
+		(end -0.734 -0.734)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "05b80482-8f7b-4994-b7e5-762856d52027")
+	)
+	(fp_line
+		(start 0.734 -0.734)
+		(end 0.734 0.734)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "95be07f9-50f6-41ae-b24b-9e8dbe37214a")
+	)
+	(fp_line
+		(start 0.734 0.734)
+		(end -0.734 0.734)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa81cad4-0979-444f-9572-cb412afba538")
+	)
+	(fp_poly
+		(pts
+			(xy 0.336235 -0.114181) (xy 0.455138 0.108002) (xy 0.547155 -0.113521)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Fab")
+		(uuid "4150870c-a0ef-4080-9689-70b49aa8d488")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.041 -1.778 0)
+		(layer "F.Fab")
+		(uuid "3991c40d-b92b-4c45-b056-069b1efa3a26")
+		(effects
+			(font
+				(size 0.3 0.3)
+				(thickness 0.05)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b57d955c-0b55-45dd-a2b7-34529e45d73a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.425 0.425)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "69cf187e-2999-482f-91fd-b8e8a5162bc5")
+	)
+	(pad "2" smd rect
+		(at -0.425 -0.425)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d453e100-3148-4bef-ac98-835586b791a3")
+	)
+	(pad "3" smd rect
+		(at 0.425 0.425)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a1f9b572-6d57-4bc8-8c5d-971e13834dbc")
+	)
+	(pad "4" smd rect
+		(at 0.425 -0.425)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ffe6c588-3242-4eb8-8e75-6fdcd68a5c55")
+	)
+	(model "G:/My Drive/_.DUBPIXEL/_...CIRCUIT_PROJECTS/DPX_KICAD/3D/XL1010LED v1.step"
+		(offset
+			(xyz -0.5 -0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD7_USER_3D}/XL1010LED v1.step"
+		(offset
+			(xyz -0.5 -0.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

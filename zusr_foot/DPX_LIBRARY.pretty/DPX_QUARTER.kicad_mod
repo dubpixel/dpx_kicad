@@ -1,0 +1,117 @@
+(footprint "DPX_QUARTER"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.19 -13.12 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c32bf3b9-0654-4418-8d72-1371e289eb59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DPX_QUARTER"
+		(at 0.19 13.44 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ca550796-a424-49c1-b0db-f1b0ee95383c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1eb492a0-6484-4ad7-b74f-2fef60788f71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "147c94c3-e045-46f1-b0b4-1cc5e50bf1d8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "add1251e-804e-4e97-bbe7-5fbc9be89cac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -0.06 -0.06)
+		(end 12.07 -0.06)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "bf33786a-fa95-4f02-84ef-9d817a4f516e")
+	)
+	(fp_text user "25"
+		(at -9.42 5.84 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "de05fd70-fb95-477f-a172-6c89d2459471")
+		(effects
+			(font
+				(size 10 10)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.19 14.94 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8d466f08-5607-48e7-9de4-2e3e87f8b5bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(model "${KICAD7_USER_3D}/Quarter.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,97 @@
+(footprint "JLCPCB_TOOLING"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "T***"
+		(at 0.15 -1.6 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "49543fee-d401-4502-9df2-70ac4caf6a9f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" " "
+		(at 0.35 2.55 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b236a35a-b51a-4bb6-963d-a8ded6717672")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "JLCPCB_TOOLING"
+		(at 0.2 4.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "522b77e7-7487-4997-9649-91cb11d79cf0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e722c16-e51b-4f60-805c-604ee8c3d4fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85d823aa-91c7-4f2d-921f-e2d19eaf12c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.625 0)
+		(stroke
+			(width 0.178)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Mask")
+		(uuid "fb6a3ad5-016c-4fb5-86f1-04211e9fac0f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.67 0)
+		(stroke
+			(width 0.27)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "796f2c39-2e68-4bb5-be60-067ca9446f0e")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1.152 1.152)
+		(drill 1.152)
+		(layers "F&B.Cu" "*.Mask")
+		(solder_mask_margin 0.146)
+		(clearance 0.248)
+		(uuid "feb568bb-19eb-402c-9e03-e1bb54c203ce")
+	)
+)

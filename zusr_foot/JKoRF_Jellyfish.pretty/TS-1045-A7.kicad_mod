@@ -1,0 +1,289 @@
+(footprint "TS-1045-A7"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Yuandi TS-1045-A7 Tactile Switch. Right Angle SMD with 4.5mm Shaft (7mm overall length)")
+	(property "Reference" "REF**"
+		(at 3 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c4a6ebc1-05a0-4dc0-9329-dc1407c9240b")
+		(effects
+			(font
+				(size 0.93472 0.93472)
+				(thickness 0.08128)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "TS-1045-A7"
+		(at 5 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d2af42df-3133-4c8b-a55e-3ff6294a1858")
+		(effects
+			(font
+				(size 0.93472 0.93472)
+				(thickness 0.08128)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" "TS-1045-A7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c706fca-3776-44c5-9f4b-64b36bf4188e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d50f004c-765f-4209-9424-f1c6d8205ad8")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d29a9657-037e-425b-aaa5-5699f8d12981")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_line
+		(start -3.75 0)
+		(end -1.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "90af9c47-84c6-4947-b137-b15f2d843cd9")
+	)
+	(fp_line
+		(start -3.75 3.5)
+		(end -3.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "caca6c52-d5ab-4546-98de-2063577aceba")
+	)
+	(fp_line
+		(start -1.75 -3.5)
+		(end 1.75 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2fa8e59e-ef36-42a9-97f3-622e3bdcbd3e")
+	)
+	(fp_line
+		(start -1.75 0)
+		(end -1.75 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45ad4064-49b1-410a-9f2e-9e3b6cbdaab8")
+	)
+	(fp_line
+		(start -1.75 0)
+		(end -0.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cdef53c4-51ee-416e-8aeb-004b7df8f0fa")
+	)
+	(fp_line
+		(start -0.6 0)
+		(end -0.6 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "785dd917-53b1-4c93-8dfe-7f18fead23bf")
+	)
+	(fp_line
+		(start -0.6 0)
+		(end 0.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "110c8270-296b-4f15-9e5e-fb2a94c4134b")
+	)
+	(fp_line
+		(start 0.6 0)
+		(end 0.6 0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0b9e8d3-159b-481b-8141-c2baf00623ae")
+	)
+	(fp_line
+		(start 0.6 0)
+		(end 1.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11870c3f-c5f5-404f-9bba-ea45fa67f4ce")
+	)
+	(fp_line
+		(start 1.75 -3.5)
+		(end 1.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "95ec6768-ae0a-4ad1-8b77-e7a2c6e83394")
+	)
+	(fp_line
+		(start 1.75 0)
+		(end 3.75 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "35fde641-b43c-4eaa-bd87-343d498a83bc")
+	)
+	(fp_line
+		(start 3.75 0)
+		(end 3.75 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41f82c53-6fc9-439e-9a0a-28b0f129115b")
+	)
+	(fp_line
+		(start 3.75 3.5)
+		(end -3.75 3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec98e973-68d3-4af0-b466-c3628d135452")
+	)
+	(fp_poly
+		(pts
+			(xy -5.05 5.3) (xy -3.55 5.3) (xy -3.55 4.3) (xy -5.05 4.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "52c83f25-d322-486d-9ed4-fb19c769da1c")
+	)
+	(fp_poly
+		(pts
+			(xy -3.95 5.3) (xy -3.55 5.3) (xy -3.55 0) (xy -3.95 0)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "ae344d3b-9210-4ef3-9c65-b5fd0c167fa7")
+	)
+	(fp_poly
+		(pts
+			(xy 3.55 5.3) (xy 3.95 5.3) (xy 3.95 0) (xy 3.55 0)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "cbd3d219-b838-4773-a007-3f51ad19c772")
+	)
+	(fp_poly
+		(pts
+			(xy 3.55 5.3) (xy 5.05 5.3) (xy 5.05 4.3) (xy 3.55 4.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "9e5e26ab-43f2-4dfd-bc82-0b310408205c")
+	)
+	(pad "MNT1" smd rect
+		(at -4.1 4.9 90)
+		(size 1.3 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 0)
+		(uuid "d79b8444-b81e-4e62-bcb9-6e5c71bb87de")
+	)
+	(pad "MNT2" smd rect
+		(at 4.1 4.9 90)
+		(size 1.3 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 0)
+		(uuid "f3dd9782-27be-4077-afb9-b73c89415f73")
+	)
+	(pad "P$1" smd rect
+		(at -2.25 3.75)
+		(size 1 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 0)
+		(uuid "cb2de05c-59e4-4478-b757-8b3e14af2514")
+	)
+	(pad "P$2" smd rect
+		(at 2.25 3.75)
+		(size 1 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 0)
+		(uuid "d40babf5-7303-4d56-b7ae-70c4d4d0cebf")
+	)
+	(pad "TAB" thru_hole circle
+		(at 0 0.3)
+		(size 2.16 2.16)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
+		(thermal_bridge_angle 0)
+		(uuid "fda3fb9b-582b-4374-bce8-0cfb94cfad61")
+	)
+)

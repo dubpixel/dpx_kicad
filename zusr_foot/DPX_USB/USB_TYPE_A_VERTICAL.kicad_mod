@@ -1,0 +1,186 @@
+(footprint "USB_TYPE_A_VERTICAL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.2 -4.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e1f83bc9-fb4a-482d-988f-d5d804ac4ffb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "USB_TYPE_A_VERTICAL-KHROparts"
+		(at 0 7.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "62402a90-19f0-41a1-a0a3-6daafedfb0c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "USB_TYPE_A_VERTICAL"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8078416-7960-4b86-9a22-c8ec065bfda3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108131930_Korean-Hroparts-Elec-U-G-04DD-W-4_C879731.pdf"
+		(at 0 3.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "977507df-7370-4608-a022-2763b300c10a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7ba6979-d356-4b43-8dff-39376718dda7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB" "C879731"
+		(at 0.2 3.4 0)
+		(layer "F.SilkS")
+		(uuid "9bb9d315-a4e8-4c52-b919-396c932c6602")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -7 -2.7)
+		(end 7 1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "61d2a6a6-aea5-4c9e-91f8-28327e91db58")
+	)
+	(fp_rect
+		(start -7 -2.7)
+		(end 7 1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d730e296-5243-4673-bc7d-1ac2ac5ccaf0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.2 9.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3e6059ec-ca30-43a6-9398-e838456c2ede")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -3.5 -0.55)
+		(size 1.4 1.2)
+		(drill oval 0.8 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4f907956-b203-40bf-baff-671b5bb6d73c")
+	)
+	(pad "2" thru_hole oval
+		(at -1 -0.55)
+		(size 1.4 1.2)
+		(drill oval 0.8 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bbbde5a2-035d-4530-8d7e-075b23c9cf49")
+	)
+	(pad "3" thru_hole oval
+		(at 1 -0.55)
+		(size 1.4 1.2)
+		(drill oval 0.8 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a55c3374-d3cc-43d1-b4c0-bed8eef17670")
+	)
+	(pad "4" thru_hole oval
+		(at 3.5 -0.55)
+		(size 1.4 1.2)
+		(drill oval 0.8 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "11c4e077-2049-49ee-97fd-637910fdece3")
+	)
+	(pad "5" thru_hole oval
+		(at -5.85 0)
+		(size 1.2 2.2)
+		(drill oval 0.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "20c3e69e-db7f-4fba-b18d-15c14f614c4e")
+	)
+	(pad "5" thru_hole oval
+		(at 5.85 0)
+		(size 1.2 2.2)
+		(drill oval 0.6 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ef27070a-d8ef-49aa-b277-c7a97e20041e")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_A_TE_292303-7_Horizontal.step"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${USER_3D}/Connectors-USB/USB Connector Type A male, SMT/USB Connector Type A male, SMT.STEP"
+		(offset
+			(xyz 0 0 19)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

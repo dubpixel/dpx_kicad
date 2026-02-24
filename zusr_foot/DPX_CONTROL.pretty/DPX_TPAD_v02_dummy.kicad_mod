@@ -1,0 +1,97 @@
+(footprint "DPX_TPAD_v02_dummy"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.55 -1.3 0)
+		(unlocked yes)
+		(layer "User.1")
+		(hide yes)
+		(uuid "42bd0262-1749-4fdc-b175-42a3e61ff3bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DPX_TPAD_v02_dummy"
+		(at -0.1 1.95 0)
+		(unlocked yes)
+		(layer "User.1")
+		(hide yes)
+		(uuid "4eb5b461-da03-4253-a2fe-8712f1992005")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "DPX_TPAD_v02_dummy"
+		(at 0.05 -10.25 0)
+		(unlocked yes)
+		(layer "User.2")
+		(hide yes)
+		(uuid "89f19b09-59b4-4b2f-9f17-cbeef53deaad")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86dcf668-0e7a-4dda-b454-4a13e0c2b572")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a5453c48-dfcc-4c65-a73b-f8e53480be5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 1.15 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "User.1")
+		(uuid "cf69b4b5-fdfb-4d0a-8aeb-1caf22f0c4cd")
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 2.3 2.3)
+		(layers "F.Cu")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 1)
+			(curve_points 0)
+			(filter_ratio 0.9)
+			(enabled no)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "ac8881c4-ebd8-4c85-bcbf-389d1ae0cfba")
+	)
+)

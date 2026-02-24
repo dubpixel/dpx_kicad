@@ -1,0 +1,281 @@
+(footprint "BOURNS-PTL2043_20mm-slide-pot"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://www.bourns.com/data/global/pdfs/PTA.pdf")
+	(property "Reference" "BOURNS-PTL2043_20mm-slide-pot"
+		(at 5.715 0 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "11a94681-44ca-4654-b0bf-8748c0d52f90")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Value" "VAL**"
+		(at 0 0 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c7dd1a64-b572-4bf8-a235-10e63f7031e0")
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1524)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38ae9110-6378-47ea-893e-56c6be0424d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7368f61-44ed-4009-b5ed-e7c0ebe7b7cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0306e518-1d02-41d1-ab75-c84109734d6a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.5 17.5)
+		(end -4.5 -17.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14d5cd4e-da06-41fe-ac14-63a1e33e5abc")
+	)
+	(fp_line
+		(start -4.5 17.5)
+		(end 4.5 17.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e77645db-d519-4dd9-bcd3-22f86ce46999")
+	)
+	(fp_line
+		(start -1 13.5)
+		(end -1 -13.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f877ba2d-338d-4680-9479-e41fdf6f6b3a")
+	)
+	(fp_line
+		(start -1 13.5)
+		(end 1 13.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62075cdc-21d3-4315-84c3-c952b3e2a1cf")
+	)
+	(fp_line
+		(start -0.5 4)
+		(end -0.5 9)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57ac0472-cc3c-4ffa-a3f1-d5788ae7e80e")
+	)
+	(fp_line
+		(start -0.5 9)
+		(end 0.5 9)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d5b899d2-0a76-4e89-89b6-a0034499dba0")
+	)
+	(fp_line
+		(start 0.5 4)
+		(end -0.5 4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5e6ec26-1fc3-44da-974d-669ede8f33be")
+	)
+	(fp_line
+		(start 0.5 9)
+		(end 0.5 4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6706daa-08ab-4720-8178-fd6245fc9416")
+	)
+	(fp_line
+		(start 1 -13.5)
+		(end -1 -13.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9e16a55-3218-493e-95e7-799a666e5c99")
+	)
+	(fp_line
+		(start 1 -13.5)
+		(end 1 13.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e96c2ae-e85b-4c97-8e71-c39197ec62fe")
+	)
+	(fp_line
+		(start 4.5 -17.5)
+		(end -4.5 -17.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33a2a222-1c72-4178-90f6-76ac22c77eb0")
+	)
+	(fp_line
+		(start 4.5 -17.5)
+		(end 4.5 17.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "804cb166-8bc6-46b2-84b4-86cc6df8aa16")
+	)
+	(fp_circle
+		(center 0 -15.5)
+		(end 0 -14.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "37aa1e91-1fb5-4814-a6c7-953e03d555a0")
+	)
+	(fp_circle
+		(center 0 15.5)
+		(end 0 14.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "fc49134a-afba-4777-b145-ff724760ccfb")
+	)
+	(pad "1" thru_hole circle
+		(at -1.3 15.05 90)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "ab9d4960-9448-4f06-b275-70025c9502bd")
+	)
+	(pad "2" thru_hole circle
+		(at -3.75 15.05 90)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "abb9f0ea-ad56-47fc-a257-c36d7a1b3cef")
+	)
+	(pad "3" thru_hole circle
+		(at -1.6 -15.05 90)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "f61470c7-2ca0-4044-b412-7801c752d0e5")
+	)
+	(pad "A" thru_hole circle
+		(at 3.8 -15.05 90)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "7bf44a27-a696-4022-bd95-1231e7978ae0")
+	)
+	(pad "C" thru_hole circle
+		(at 3.75 15.05 90)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "8370d6f7-74ff-489c-9353-280f77fd5048")
+	)
+	(pad "L" thru_hole circle
+		(at 1.3 15.05 90)
+		(size 2.2 2.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "9dc024d9-a245-4f3a-909d-951a107b59b8")
+	)
+	(model "G:/My Drive/_.DUBPIXEL/_...CIRCUIT_PROJECTS/DPX_KICAD/3D/PTL20-10G0-103B2--3DModel-STEP-1.STEP"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+	(model "${KICAD7_USER_3D}/PTL20-10G0-103B2--3DModel-STEP-1.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

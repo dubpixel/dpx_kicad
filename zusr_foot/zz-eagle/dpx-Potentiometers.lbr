@@ -1,0 +1,2298 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="POT-PTH-ALPS-KIT" urn="urn:adsk.eagle:footprint:1273080/1">
+<description>&lt;h3&gt;9mm Square Rotary Potentiometer - PTH (KIT Variant)&lt;/h3&gt;
+&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/General/Linear-Trimpot.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="6.73" y1="4.93" x2="6.73" y2="-4.93" width="0.2032" layer="51"/>
+<wire x1="6.73" y1="-4.93" x2="-5.346" y2="-4.93" width="0.2032" layer="51"/>
+<wire x1="-5.346" y1="-4.93" x2="-5.346" y2="4.93" width="0.2032" layer="51"/>
+<wire x1="-5.346" y1="4.93" x2="6.73" y2="4.93" width="0.2032" layer="51"/>
+<wire x1="-5.473" y1="5.057" x2="-1.55" y2="5.057" width="0.2032" layer="21"/>
+<wire x1="1.55" y1="5.057" x2="6.857" y2="5.057" width="0.2032" layer="21"/>
+<wire x1="-5.473" y1="-5.057" x2="-5.473" y2="5.057" width="0.2032" layer="21"/>
+<wire x1="6.857" y1="-5.057" x2="1.55" y2="-5.057" width="0.2032" layer="21"/>
+<wire x1="-1.55" y1="-5.057" x2="-5.473" y2="-5.057" width="0.2032" layer="21"/>
+<wire x1="6.857" y1="5.057" x2="6.857" y2="3.706" width="0.2032" layer="21"/>
+<wire x1="6.857" y1="-3.706" x2="6.857" y2="-5.057" width="0.2032" layer="21"/>
+<pad name="P$1" x="7" y="-2.5" drill="1" diameter="1.8796" stop="no"/>
+<pad name="P$2" x="7" y="0" drill="1" diameter="1.8796" stop="no"/>
+<pad name="P$3" x="7" y="2.5" drill="1" diameter="1.8796" stop="no"/>
+<pad name="P$4" x="0" y="-4.4" drill="2" stop="no"/>
+<pad name="P$5" x="0" y="4.4" drill="2" stop="no"/>
+<circle x="0" y="4.4" radius="1" width="0" layer="29"/>
+<circle x="0" y="-4.4" radius="1" width="0" layer="29"/>
+<circle x="0" y="-4.4" radius="1.6256" width="0" layer="30"/>
+<circle x="7" y="2.5" radius="1.0668" width="0" layer="30"/>
+<circle x="7" y="0" radius="1.0668" width="0" layer="30"/>
+<circle x="7" y="-2.5" radius="1.0668" width="0" layer="30"/>
+<circle x="7" y="2.5" radius="0.5" width="0" layer="29"/>
+<circle x="7" y="0" radius="0.5" width="0" layer="29"/>
+<circle x="7" y="-2.5" radius="0.5" width="0" layer="29"/>
+<circle x="0" y="0" radius="2.667" width="0.2032" layer="21"/>
+<circle x="0" y="4.4" radius="1.6256" width="0" layer="30"/>
+<text x="-5.588" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="-5.08" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
+</package>
+<package name="POT-PTH-ALPS" urn="urn:adsk.eagle:footprint:1273081/1">
+<description>&lt;h3&gt;9mm Square Rotary Potentiometer - PTH&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/Components/General/Linear-Trimpot.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="6.73" y1="4.93" x2="6.73" y2="-4.93" width="0.2032" layer="51"/>
+<wire x1="6.73" y1="-4.93" x2="-5.346" y2="-4.93" width="0.2032" layer="51"/>
+<wire x1="-5.346" y1="-4.93" x2="-5.346" y2="4.93" width="0.2032" layer="51"/>
+<wire x1="-5.346" y1="4.93" x2="6.73" y2="4.93" width="0.2032" layer="51"/>
+<wire x1="6.827" y1="5.057" x2="6.827" y2="3.6" width="0.2032" layer="21"/>
+<wire x1="6.7" y1="-1.1" x2="6.7" y2="-1.4" width="0.2032" layer="21"/>
+<wire x1="-5.473" y1="-5.057" x2="-1.625" y2="-5.057" width="0.2032" layer="21"/>
+<wire x1="1.64" y1="5.057" x2="6.827" y2="5.057" width="0.2032" layer="21"/>
+<wire x1="1.639" y1="-5.057" x2="6.827" y2="-5.057" width="0.2032" layer="21"/>
+<wire x1="-5.473" y1="5.057" x2="-1.625" y2="5.057" width="0.2032" layer="21"/>
+<wire x1="-5.473" y1="5.057" x2="-5.473" y2="-5.057" width="0.2032" layer="21"/>
+<wire x1="6.827" y1="-3.6" x2="6.827" y2="-5.027" width="0.2032" layer="21"/>
+<wire x1="6.7" y1="1.4" x2="6.7" y2="1.1" width="0.2032" layer="21"/>
+<pad name="P$1" x="7" y="-2.5" drill="1" diameter="1.8796" shape="square"/>
+<pad name="P$2" x="7" y="0" drill="1" diameter="1.8796" shape="square"/>
+<pad name="P$3" x="7" y="2.5" drill="1" diameter="1.8796" shape="square"/>
+<pad name="P$4" x="0" y="-4.4" drill="2" shape="octagon"/>
+<pad name="P$5" x="0" y="4.4" drill="2" shape="octagon"/>
+<text x="-5.715" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="-5.207" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
+</package>
+<package name="3386P" urn="urn:adsk.eagle:footprint:29261928/1">
+<description>3/8" Square Trimmer</description>
+<wire x1="4.699" y1="-4.6482" x2="4.699" y2="4.7498" width="0.1778" layer="21"/>
+<wire x1="4.699" y1="4.7498" x2="-4.699" y2="4.7498" width="0.1778" layer="21"/>
+<wire x1="-4.699" y1="4.7498" x2="-4.699" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="0.635" y1="-0.635" x2="-0.635" y2="0.635" width="0.6096" layer="51"/>
+<wire x1="-4.699" y1="-4.6482" x2="-3.81" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="-3.81" y1="-4.6482" x2="-3.81" y2="-4.1275" width="0.1778" layer="21"/>
+<wire x1="-3.81" y1="-4.1275" x2="3.81" y2="-4.1275" width="0.1778" layer="21"/>
+<wire x1="3.81" y1="-4.1275" x2="3.81" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="4.699" y1="-4.6482" x2="3.81" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="2.54" y1="3.81" x2="2.413" y2="3.683" width="0.127" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="2.413" y2="3.937" width="0.127" layer="51"/>
+<wire x1="2.286" y1="3.556" x2="2.286" y2="4.064" width="0.127" layer="51"/>
+<wire x1="2.286" y1="3.556" x2="2.159" y2="3.429" width="0.127" layer="51"/>
+<wire x1="2.286" y1="4.064" x2="2.159" y2="4.191" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.683" x2="2.413" y2="3.937" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.683" x2="2.286" y2="3.556" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.937" x2="2.286" y2="4.064" width="0.127" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="2.159" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.81" x2="-2.54" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.81" x2="2.159" y2="4.191" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.429" x2="2.159" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.032" y1="3.302" x2="2.159" y2="3.429" width="0.127" layer="51"/>
+<wire x1="2.159" y1="4.191" x2="2.032" y2="4.318" width="0.127" layer="51"/>
+<wire x1="2.032" y1="4.318" x2="2.032" y2="3.302" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.27" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.905" width="0.127" layer="51"/>
+<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="2.54" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="-2.54" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-4.445" y="5.3975" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<text x="6.6675" y="-4.445" size="1.27" layer="27" ratio="12" rot="R90">&gt;VALUE</text>
+<text x="2.921" y="3.175" size="1.27" layer="51" ratio="10">3</text>
+<text x="-2.8575" y="1.27" size="1.016" layer="51" ratio="12">1</text>
+<text x="-1.905" y="-3.175" size="1.016" layer="51" ratio="12">2</text>
+<text x="2.2225" y="1.27" size="1.016" layer="51" ratio="12">3</text>
+</package>
+<package name="3386G" urn="urn:adsk.eagle:footprint:29261926/1">
+<description>3/8" Square Trimmer</description>
+<wire x1="4.7625" y1="-4.6038" x2="4.7625" y2="4.7625" width="0.1778" layer="21"/>
+<wire x1="4.7625" y1="4.7625" x2="1.1114" y2="4.7625" width="0.1778" layer="21"/>
+<wire x1="-1.1112" y1="4.7625" x2="-4.7625" y2="4.7625" width="0.1778" layer="21"/>
+<wire x1="-4.7625" y1="4.7625" x2="-4.7625" y2="-4.6038" width="0.1778" layer="21"/>
+<wire x1="0.635" y1="-0.635" x2="-0.635" y2="0.635" width="0.6096" layer="51"/>
+<wire x1="-4.7625" y1="-4.6038" x2="-3.81" y2="-4.6038" width="0.1778" layer="21"/>
+<wire x1="-3.81" y1="-4.6038" x2="-3.81" y2="-4.1275" width="0.1778" layer="21"/>
+<wire x1="-3.81" y1="-4.1275" x2="-3.175" y2="-4.1275" width="0.1778" layer="21"/>
+<wire x1="3.175" y1="-4.1275" x2="3.81" y2="-4.1275" width="0.1778" layer="21"/>
+<wire x1="3.81" y1="-4.1275" x2="3.81" y2="-4.6038" width="0.1778" layer="21"/>
+<wire x1="4.7625" y1="-4.6038" x2="3.81" y2="-4.6038" width="0.1778" layer="21"/>
+<wire x1="2.54" y1="3.81" x2="2.413" y2="3.683" width="0.127" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="2.413" y2="3.937" width="0.127" layer="51"/>
+<wire x1="2.286" y1="3.556" x2="2.286" y2="4.064" width="0.127" layer="51"/>
+<wire x1="2.286" y1="3.556" x2="2.159" y2="3.429" width="0.127" layer="51"/>
+<wire x1="2.286" y1="4.064" x2="2.159" y2="4.191" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.683" x2="2.413" y2="3.937" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.683" x2="2.286" y2="3.556" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.937" x2="2.286" y2="4.064" width="0.127" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="2.159" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.81" x2="-2.54" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.81" x2="2.159" y2="4.191" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.429" x2="2.159" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.032" y1="3.302" x2="2.159" y2="3.429" width="0.127" layer="51"/>
+<wire x1="2.159" y1="4.191" x2="2.032" y2="4.318" width="0.127" layer="51"/>
+<wire x1="2.032" y1="4.318" x2="2.032" y2="3.302" width="0.127" layer="51"/>
+<wire x1="-1.905" y1="-4.1275" x2="1.905" y2="-4.1275" width="0.1778" layer="21"/>
+<circle x="0" y="0" radius="1.27" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.905" width="0.127" layer="51"/>
+<pad name="1" x="-2.54" y="-5.08" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="2.54" y="-5.08" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="5.08" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-5.3975" y="-4.445" size="1.27" layer="25" ratio="12" rot="R90">&gt;NAME</text>
+<text x="6.6675" y="-4.445" size="1.27" layer="27" ratio="12" rot="R90">&gt;VALUE</text>
+<text x="2.921" y="3.175" size="1.27" layer="51" ratio="10">3</text>
+<text x="-2.8575" y="-3.81" size="1.016" layer="51" ratio="12">1</text>
+<text x="-0.3175" y="2.54" size="1.016" layer="51" ratio="12">2</text>
+<text x="2.2225" y="-3.81" size="1.016" layer="51" ratio="12">3</text>
+</package>
+<package name="3386U" urn="urn:adsk.eagle:footprint:29261922/1">
+<description>3/8" Square Trimmer</description>
+<wire x1="4.699" y1="-4.6482" x2="4.699" y2="4.7498" width="0.1778" layer="21"/>
+<wire x1="4.699" y1="4.7498" x2="-4.699" y2="4.7498" width="0.1778" layer="21"/>
+<wire x1="-4.699" y1="4.7498" x2="-4.699" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="0.635" y1="-0.635" x2="-0.635" y2="0.635" width="0.6096" layer="51"/>
+<wire x1="-4.699" y1="-4.6482" x2="-3.81" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="-3.81" y1="-4.6482" x2="-3.81" y2="-4.1275" width="0.1778" layer="21"/>
+<wire x1="-3.81" y1="-4.1275" x2="3.81" y2="-4.1275" width="0.1778" layer="21"/>
+<wire x1="3.81" y1="-4.1275" x2="3.81" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="4.699" y1="-4.6482" x2="3.81" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="2.54" y1="3.81" x2="2.413" y2="3.683" width="0.127" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="2.413" y2="3.937" width="0.127" layer="51"/>
+<wire x1="2.286" y1="3.556" x2="2.286" y2="4.064" width="0.127" layer="51"/>
+<wire x1="2.286" y1="3.556" x2="2.159" y2="3.429" width="0.127" layer="51"/>
+<wire x1="2.286" y1="4.064" x2="2.159" y2="4.191" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.683" x2="2.413" y2="3.937" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.683" x2="2.286" y2="3.556" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.937" x2="2.286" y2="4.064" width="0.127" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="2.159" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.81" x2="-2.54" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.81" x2="2.159" y2="4.191" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.429" x2="2.159" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.032" y1="3.302" x2="2.159" y2="3.429" width="0.127" layer="51"/>
+<wire x1="2.159" y1="4.191" x2="2.032" y2="4.318" width="0.127" layer="51"/>
+<wire x1="2.032" y1="4.318" x2="2.032" y2="3.302" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.27" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.905" width="0.127" layer="51"/>
+<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="2.54" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-4.7625" y="5.3975" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<text x="6.6675" y="-4.445" size="1.27" layer="27" ratio="12" rot="R90">&gt;VALUE</text>
+<text x="2.921" y="3.175" size="1.27" layer="51" ratio="10">3</text>
+<text x="-2.8575" y="-3.175" size="1.016" layer="51" ratio="12">1</text>
+<text x="-0.3175" y="-3.175" size="1.016" layer="51" ratio="12">2</text>
+<text x="2.2225" y="-3.175" size="1.016" layer="51" ratio="12">3</text>
+</package>
+<package name="3386F" urn="urn:adsk.eagle:footprint:29261927/1">
+<description>3/8" Square Trimmer</description>
+<wire x1="4.699" y1="-4.6482" x2="4.699" y2="4.7498" width="0.1778" layer="21"/>
+<wire x1="4.699" y1="4.7498" x2="-4.699" y2="4.7498" width="0.1778" layer="21"/>
+<wire x1="-4.699" y1="4.7498" x2="-4.699" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="0.635" y1="-0.635" x2="-0.635" y2="0.635" width="0.6096" layer="51"/>
+<wire x1="-4.699" y1="-4.6482" x2="-3.81" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="-3.81" y1="-4.6482" x2="-3.81" y2="-4.1275" width="0.1778" layer="21"/>
+<wire x1="-3.81" y1="-4.1275" x2="3.81" y2="-4.1275" width="0.1778" layer="21"/>
+<wire x1="3.81" y1="-4.1275" x2="3.81" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="4.699" y1="-4.6482" x2="3.81" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="2.54" y1="3.81" x2="2.413" y2="3.683" width="0.127" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="2.413" y2="3.937" width="0.127" layer="51"/>
+<wire x1="2.286" y1="3.556" x2="2.286" y2="4.064" width="0.127" layer="51"/>
+<wire x1="2.286" y1="3.556" x2="2.159" y2="3.429" width="0.127" layer="51"/>
+<wire x1="2.286" y1="4.064" x2="2.159" y2="4.191" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.683" x2="2.413" y2="3.937" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.683" x2="2.286" y2="3.556" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.937" x2="2.286" y2="4.064" width="0.127" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="2.159" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.81" x2="-2.54" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.81" x2="2.159" y2="4.191" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.429" x2="2.159" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.032" y1="3.302" x2="2.159" y2="3.429" width="0.127" layer="51"/>
+<wire x1="2.159" y1="4.191" x2="2.032" y2="4.318" width="0.127" layer="51"/>
+<wire x1="2.032" y1="4.318" x2="2.032" y2="3.302" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.27" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.905" width="0.127" layer="51"/>
+<pad name="1" x="-2.54" y="2.54" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="2.54" y="2.54" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="-2.54" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-4.445" y="5.3975" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<text x="6.6675" y="-4.445" size="1.27" layer="27" ratio="12" rot="R90">&gt;VALUE</text>
+<text x="2.921" y="3.175" size="1.27" layer="51" ratio="10">3</text>
+<text x="-3.175" y="0.3175" size="1.016" layer="51" ratio="12">1</text>
+<text x="1.27" y="-3.175" size="1.016" layer="51" ratio="12">2</text>
+<text x="2.54" y="0.3175" size="1.016" layer="51" ratio="12">3</text>
+</package>
+<package name="3386K" urn="urn:adsk.eagle:footprint:29261925/1">
+<description>3/8" Square Trimmer</description>
+<wire x1="4.699" y1="-4.6482" x2="4.699" y2="4.7498" width="0.1778" layer="21"/>
+<wire x1="4.699" y1="4.7498" x2="-4.699" y2="4.7498" width="0.1778" layer="21"/>
+<wire x1="-4.699" y1="4.7498" x2="-4.699" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="0.635" y1="-0.635" x2="-0.635" y2="0.635" width="0.6096" layer="51"/>
+<wire x1="-4.699" y1="-4.6482" x2="-3.81" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="-3.81" y1="-4.6482" x2="-3.81" y2="-4.1275" width="0.1778" layer="21"/>
+<wire x1="-3.81" y1="-4.1275" x2="3.81" y2="-4.1275" width="0.1778" layer="21"/>
+<wire x1="3.81" y1="-4.1275" x2="3.81" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="4.699" y1="-4.6482" x2="3.81" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="2.54" y1="3.81" x2="2.413" y2="3.683" width="0.127" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="2.413" y2="3.937" width="0.127" layer="51"/>
+<wire x1="2.286" y1="3.556" x2="2.286" y2="4.064" width="0.127" layer="51"/>
+<wire x1="2.286" y1="3.556" x2="2.159" y2="3.429" width="0.127" layer="51"/>
+<wire x1="2.286" y1="4.064" x2="2.159" y2="4.191" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.683" x2="2.413" y2="3.937" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.683" x2="2.286" y2="3.556" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.937" x2="2.286" y2="4.064" width="0.127" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="2.159" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.81" x2="-2.54" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.81" x2="2.159" y2="4.191" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.429" x2="2.159" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.032" y1="3.302" x2="2.159" y2="3.429" width="0.127" layer="51"/>
+<wire x1="2.159" y1="4.191" x2="2.032" y2="4.318" width="0.127" layer="51"/>
+<wire x1="2.032" y1="4.318" x2="2.032" y2="3.302" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.27" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.905" width="0.127" layer="51"/>
+<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="2.54" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="2.54" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-4.7625" y="5.3975" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<text x="6.6675" y="-3.4925" size="1.27" layer="27" ratio="12" rot="R90">&gt;VALUE</text>
+<text x="2.921" y="3.175" size="1.27" layer="51" ratio="10">3</text>
+<text x="-3.175" y="-1.905" size="1.016" layer="51" ratio="12">1</text>
+<text x="-1.905" y="1.905" size="1.016" layer="51" ratio="12">2</text>
+<text x="2.54" y="-1.905" size="1.016" layer="51" ratio="12">3</text>
+</package>
+<package name="3386B" urn="urn:adsk.eagle:footprint:29261920/1">
+<description>3/8" Square Trimmer</description>
+<wire x1="4.7625" y1="-2.2225" x2="4.7625" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="4.7625" y1="2.8575" x2="4.1275" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="4.1275" y1="2.54" x2="-4.1275" y2="2.54" width="0.1778" layer="21"/>
+<wire x1="-4.1275" y1="2.8575" x2="-4.7625" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="-4.7625" y1="2.8575" x2="-4.7625" y2="-2.2225" width="0.1778" layer="21"/>
+<wire x1="-4.7625" y1="-2.2225" x2="4.7625" y2="-2.2225" width="0.1778" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="2.413" y2="-0.762" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-0.635" x2="2.413" y2="-0.508" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-0.889" x2="2.286" y2="-0.381" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-0.889" x2="2.159" y2="-1.016" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-0.381" x2="2.159" y2="-0.254" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-0.762" x2="2.413" y2="-0.508" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-0.762" x2="2.286" y2="-0.889" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-0.508" x2="2.286" y2="-0.381" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-0.635" x2="2.159" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-0.635" x2="-2.54" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-0.635" x2="2.159" y2="-0.254" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-1.016" x2="2.159" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="2.032" y1="-1.143" x2="2.159" y2="-1.016" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-0.254" x2="2.032" y2="-0.127" width="0.127" layer="51"/>
+<wire x1="2.032" y1="-0.127" x2="2.032" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="-4.1275" y1="2.8575" x2="-4.1275" y2="2.54" width="0.1778" layer="21"/>
+<wire x1="4.1275" y1="2.8575" x2="4.1275" y2="2.54" width="0.1778" layer="21"/>
+<pad name="1" x="3.81" y="1.27" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="-3.81" y="1.27" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="1.27" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-4.445" y="-3.81" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<text x="-3.4925" y="3.175" size="1.27" layer="27" ratio="12">&gt;VALUE</text>
+<text x="2.921" y="-1.905" size="1.27" layer="51" ratio="10">3</text>
+<text x="3.4925" y="0.635" size="1.016" layer="51" ratio="12">1</text>
+<text x="-0.3175" y="0.635" size="1.016" layer="51" ratio="12">2</text>
+<text x="-4.1275" y="0.635" size="1.016" layer="51" ratio="12">3</text>
+</package>
+<package name="3386T" urn="urn:adsk.eagle:footprint:29261923/1">
+<description>3/8" Square Trimmer</description>
+<wire x1="4.699" y1="-4.6482" x2="4.699" y2="4.7498" width="0.1778" layer="21"/>
+<wire x1="4.699" y1="4.7498" x2="-4.699" y2="4.7498" width="0.1778" layer="21"/>
+<wire x1="-4.699" y1="4.7498" x2="-4.699" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="0.635" y1="-0.635" x2="-0.635" y2="0.635" width="0.6096" layer="51"/>
+<wire x1="-4.699" y1="-4.6482" x2="-3.81" y2="-4.6482" width="0.1778" layer="51"/>
+<wire x1="-3.81" y1="-4.6482" x2="-3.81" y2="-4.1275" width="0.1778" layer="51"/>
+<wire x1="-3.81" y1="-4.1275" x2="-2.8575" y2="-4.1275" width="0.1778" layer="51"/>
+<wire x1="-2.8575" y1="-4.1275" x2="-0.9525" y2="-4.1275" width="0.1778" layer="21"/>
+<wire x1="-0.9525" y1="-4.1275" x2="0.9525" y2="-4.1275" width="0.1778" layer="51"/>
+<wire x1="0.9525" y1="-4.1275" x2="2.8575" y2="-4.1275" width="0.1778" layer="21"/>
+<wire x1="2.8575" y1="-4.1275" x2="3.81" y2="-4.1275" width="0.1778" layer="51"/>
+<wire x1="3.81" y1="-4.1275" x2="3.81" y2="-4.6482" width="0.1778" layer="51"/>
+<wire x1="4.699" y1="-4.6482" x2="3.81" y2="-4.6482" width="0.1778" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="2.413" y2="3.683" width="0.127" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="2.413" y2="3.937" width="0.127" layer="51"/>
+<wire x1="2.286" y1="3.556" x2="2.286" y2="4.064" width="0.127" layer="51"/>
+<wire x1="2.286" y1="3.556" x2="2.159" y2="3.429" width="0.127" layer="51"/>
+<wire x1="2.286" y1="4.064" x2="2.159" y2="4.191" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.683" x2="2.413" y2="3.937" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.683" x2="2.286" y2="3.556" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.937" x2="2.286" y2="4.064" width="0.127" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="2.159" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.81" x2="-2.54" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.81" x2="2.159" y2="4.191" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.429" x2="2.159" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.032" y1="3.302" x2="2.159" y2="3.429" width="0.127" layer="51"/>
+<wire x1="2.159" y1="4.191" x2="2.032" y2="4.318" width="0.127" layer="51"/>
+<wire x1="2.032" y1="4.318" x2="2.032" y2="3.302" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.27" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.905" width="0.127" layer="51"/>
+<pad name="1" x="-3.81" y="-3.81" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="3.81" y="-3.81" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="-3.81" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-4.7625" y="5.3975" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<text x="6.6675" y="-4.445" size="1.27" layer="27" ratio="12" rot="R90">&gt;VALUE</text>
+<text x="2.921" y="3.175" size="1.27" layer="51" ratio="10">3</text>
+<text x="2.54" y="-2.54" size="1.016" layer="51" ratio="12">3</text>
+<text x="0" y="-2.54" size="1.016" layer="51" ratio="12">2</text>
+<text x="-3.175" y="-2.54" size="1.016" layer="51" ratio="12">1</text>
+</package>
+<package name="3386R" urn="urn:adsk.eagle:footprint:29261924/1">
+<description>3/8" Square Trimmer</description>
+<wire x1="4.699" y1="-4.6482" x2="4.699" y2="4.7498" width="0.1778" layer="21"/>
+<wire x1="4.699" y1="4.7498" x2="-4.699" y2="4.7498" width="0.1778" layer="21"/>
+<wire x1="-4.699" y1="4.7498" x2="-4.699" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="0.635" y1="-0.635" x2="-0.635" y2="0.635" width="0.6096" layer="51"/>
+<wire x1="-4.699" y1="-4.6482" x2="-3.81" y2="-4.6482" width="0.1778" layer="51"/>
+<wire x1="-3.81" y1="-4.6482" x2="-3.81" y2="-4.1275" width="0.1778" layer="51"/>
+<wire x1="-3.81" y1="-4.1275" x2="-2.8575" y2="-4.1275" width="0.1778" layer="51"/>
+<wire x1="-2.8575" y1="-4.1275" x2="-0.9525" y2="-4.1275" width="0.1778" layer="21"/>
+<wire x1="-0.9525" y1="-4.1275" x2="0.9525" y2="-4.1275" width="0.1778" layer="51"/>
+<wire x1="0.9525" y1="-4.1275" x2="2.8575" y2="-4.1275" width="0.1778" layer="21"/>
+<wire x1="2.8575" y1="-4.1275" x2="3.81" y2="-4.1275" width="0.1778" layer="51"/>
+<wire x1="3.81" y1="-4.1275" x2="3.81" y2="-4.6482" width="0.1778" layer="51"/>
+<wire x1="4.699" y1="-4.6482" x2="3.81" y2="-4.6482" width="0.1778" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="2.413" y2="3.683" width="0.127" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="2.413" y2="3.937" width="0.127" layer="51"/>
+<wire x1="2.286" y1="3.556" x2="2.286" y2="4.064" width="0.127" layer="51"/>
+<wire x1="2.286" y1="3.556" x2="2.159" y2="3.429" width="0.127" layer="51"/>
+<wire x1="2.286" y1="4.064" x2="2.159" y2="4.191" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.683" x2="2.413" y2="3.937" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.683" x2="2.286" y2="3.556" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.937" x2="2.286" y2="4.064" width="0.127" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="2.159" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.81" x2="-2.54" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.81" x2="2.159" y2="4.191" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.429" x2="2.159" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.032" y1="3.302" x2="2.159" y2="3.429" width="0.127" layer="51"/>
+<wire x1="2.159" y1="4.191" x2="2.032" y2="4.318" width="0.127" layer="51"/>
+<wire x1="2.032" y1="4.318" x2="2.032" y2="3.302" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.27" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.905" width="0.127" layer="51"/>
+<pad name="1" x="3.81" y="-3.81" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="-3.81" y="-3.81" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="-3.81" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-4.7625" y="5.3975" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<text x="6.6675" y="-4.445" size="1.27" layer="27" ratio="12" rot="R90">&gt;VALUE</text>
+<text x="2.921" y="3.175" size="1.27" layer="51" ratio="10">3</text>
+<text x="-3.175" y="-2.54" size="1.016" layer="51" ratio="12">3</text>
+<text x="0" y="-2.54" size="1.016" layer="51" ratio="12">2</text>
+<text x="2.54" y="-2.54" size="1.016" layer="51" ratio="12">1</text>
+</package>
+<package name="3386H" urn="urn:adsk.eagle:footprint:29261918/1">
+<description>3/8" Square Trimmer</description>
+<wire x1="4.7625" y1="-2.2225" x2="4.7625" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="4.7625" y1="2.8575" x2="4.1275" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="4.1275" y1="2.54" x2="-4.1275" y2="2.54" width="0.1778" layer="21"/>
+<wire x1="-4.1275" y1="2.8575" x2="-4.7625" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="-4.7625" y1="2.8575" x2="-4.7625" y2="-2.2225" width="0.1778" layer="21"/>
+<wire x1="-4.7625" y1="-2.2225" x2="-0.9525" y2="-2.2225" width="0.1778" layer="21"/>
+<wire x1="0.9525" y1="-2.2225" x2="4.7625" y2="-2.2225" width="0.1778" layer="21"/>
+<wire x1="2.54" y1="-0.9525" x2="2.413" y2="-1.0795" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-0.9525" x2="2.413" y2="-0.8255" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-1.2065" x2="2.286" y2="-0.6985" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-1.2065" x2="2.159" y2="-1.3335" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-0.6985" x2="2.159" y2="-0.5715" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-1.0795" x2="2.413" y2="-0.8255" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-1.0795" x2="2.286" y2="-1.2065" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-0.8255" x2="2.286" y2="-0.6985" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-0.9525" x2="2.159" y2="-0.9525" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-0.9525" x2="-2.54" y2="-0.9525" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-0.9525" x2="2.159" y2="-0.5715" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-1.3335" x2="2.159" y2="-0.9525" width="0.127" layer="51"/>
+<wire x1="2.032" y1="-1.4605" x2="2.159" y2="-1.3335" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-0.5715" x2="2.032" y2="-0.4445" width="0.127" layer="51"/>
+<wire x1="2.032" y1="-0.4445" x2="2.032" y2="-1.4605" width="0.127" layer="51"/>
+<wire x1="-4.1275" y1="2.8575" x2="-4.1275" y2="2.54" width="0.1778" layer="21"/>
+<wire x1="4.1275" y1="2.8575" x2="4.1275" y2="2.54" width="0.1778" layer="21"/>
+<pad name="1" x="-2.54" y="0.635" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="2.54" y="0.635" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="-1.905" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-4.7625" y="-4.1275" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<text x="-3.4925" y="3.175" size="1.27" layer="27" ratio="12">&gt;VALUE</text>
+<text x="2.921" y="-1.905" size="1.27" layer="51" ratio="10">3</text>
+<text x="-2.8575" y="0" size="1.016" layer="51" ratio="12">1</text>
+<text x="-0.3175" y="-2.54" size="1.016" layer="51" ratio="12">2</text>
+<text x="2.2225" y="0" size="1.016" layer="51" ratio="12">3</text>
+</package>
+<package name="3386C" urn="urn:adsk.eagle:footprint:29261919/1">
+<description>3/8" Square Trimmer</description>
+<wire x1="4.7625" y1="-2.2225" x2="4.7625" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="4.7625" y1="2.8575" x2="4.1275" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="4.1275" y1="2.54" x2="-4.1275" y2="2.54" width="0.1778" layer="21"/>
+<wire x1="-4.1275" y1="2.8575" x2="-4.7625" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="-4.7625" y1="2.8575" x2="-4.7625" y2="-2.2225" width="0.1778" layer="21"/>
+<wire x1="-4.7625" y1="-2.2225" x2="4.7625" y2="-2.2225" width="0.1778" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="2.413" y2="-0.762" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-0.635" x2="2.413" y2="-0.508" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-0.889" x2="2.286" y2="-0.381" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-0.889" x2="2.159" y2="-1.016" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-0.381" x2="2.159" y2="-0.254" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-0.762" x2="2.413" y2="-0.508" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-0.762" x2="2.286" y2="-0.889" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-0.508" x2="2.286" y2="-0.381" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-0.635" x2="2.159" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-0.635" x2="-2.54" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-0.635" x2="2.159" y2="-0.254" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-1.016" x2="2.159" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="2.032" y1="-1.143" x2="2.159" y2="-1.016" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-0.254" x2="2.032" y2="-0.127" width="0.127" layer="51"/>
+<wire x1="2.032" y1="-0.127" x2="2.032" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="-4.1275" y1="2.8575" x2="-4.1275" y2="2.54" width="0.1778" layer="21"/>
+<wire x1="4.1275" y1="2.8575" x2="4.1275" y2="2.54" width="0.1778" layer="21"/>
+<pad name="1" x="2.54" y="1.27" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="-2.54" y="1.27" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="1.27" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-4.7625" y="-3.81" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<text x="-3.81" y="3.175" size="1.27" layer="27" ratio="12">&gt;VALUE</text>
+<text x="2.921" y="-1.905" size="1.27" layer="51" ratio="10">3</text>
+<text x="2.2225" y="0.635" size="1.016" layer="51" ratio="12">1</text>
+<text x="-0.635" y="0.635" size="1.016" layer="51" ratio="12">2</text>
+<text x="-3.175" y="0.635" size="1.016" layer="51" ratio="12">3</text>
+</package>
+<package name="3386Y" urn="urn:adsk.eagle:footprint:29261921/1">
+<description>3/8" Square Trimmer</description>
+<wire x1="4.699" y1="-4.6482" x2="4.699" y2="4.7498" width="0.1778" layer="21"/>
+<wire x1="4.699" y1="4.7498" x2="-4.699" y2="4.7498" width="0.1778" layer="21"/>
+<wire x1="-4.699" y1="4.7498" x2="-4.699" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="0.635" y1="-0.635" x2="-0.635" y2="0.635" width="0.6096" layer="51"/>
+<wire x1="-4.699" y1="-4.6482" x2="-3.81" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="-3.81" y1="-4.6482" x2="-3.81" y2="-4.1275" width="0.1778" layer="21"/>
+<wire x1="-3.81" y1="-4.1275" x2="3.81" y2="-4.1275" width="0.1778" layer="21"/>
+<wire x1="3.81" y1="-4.1275" x2="3.81" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="4.699" y1="-4.6482" x2="3.81" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="2.54" y1="3.81" x2="2.413" y2="3.683" width="0.127" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="2.413" y2="3.937" width="0.127" layer="51"/>
+<wire x1="2.286" y1="3.556" x2="2.286" y2="4.064" width="0.127" layer="51"/>
+<wire x1="2.286" y1="3.556" x2="2.159" y2="3.429" width="0.127" layer="51"/>
+<wire x1="2.286" y1="4.064" x2="2.159" y2="4.191" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.683" x2="2.413" y2="3.937" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.683" x2="2.286" y2="3.556" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.937" x2="2.286" y2="4.064" width="0.127" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="2.159" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.81" x2="-2.54" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.81" x2="2.159" y2="4.191" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.429" x2="2.159" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.032" y1="3.302" x2="2.159" y2="3.429" width="0.127" layer="51"/>
+<wire x1="2.159" y1="4.191" x2="2.032" y2="4.318" width="0.127" layer="51"/>
+<wire x1="2.032" y1="4.318" x2="2.032" y2="3.302" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.27" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.905" width="0.127" layer="51"/>
+<pad name="1" x="-2.54" y="-2.54" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="2.54" y="-2.54" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="2.54" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-4.7625" y="5.3975" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<text x="6.6675" y="-4.7625" size="1.27" layer="27" ratio="12" rot="R90">&gt;VALUE</text>
+<text x="2.921" y="3.175" size="1.27" layer="51" ratio="10">3</text>
+<text x="-3.175" y="-1.27" size="1.016" layer="51" ratio="12">1</text>
+<text x="-2.2225" y="1.905" size="1.016" layer="51" ratio="12">2</text>
+<text x="2.54" y="-1.27" size="1.016" layer="51" ratio="12">3</text>
+</package>
+<package name="3362H" urn="urn:adsk.eagle:footprint:29261932/1">
+<description>1/4" Square Trimmer</description>
+<wire x1="-1.778" y1="-2.413" x2="-2.032" y2="-2.667" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="-2.413" x2="2.032" y2="-2.667" width="0.1524" layer="51"/>
+<wire x1="2.5146" y1="-0.635" x2="2.8956" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="1.016" x2="2.032" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="0" y1="1.8288" x2="0" y2="2.2098" width="0.1524" layer="51"/>
+<wire x1="-1.905" y1="1.016" x2="-2.159" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-2.5146" y1="-0.635" x2="-2.8956" y2="-0.635" width="0.1524" layer="51"/>
+<wire x1="-1.5875" y1="-0.3175" x2="-0.3175" y2="-0.3175" width="0.1778" layer="51"/>
+<wire x1="-0.3175" y1="-0.3175" x2="-0.3175" y2="0.9525" width="0.1778" layer="51"/>
+<wire x1="-0.3175" y1="0.9525" x2="0.3175" y2="0.9525" width="0.1778" layer="51"/>
+<wire x1="0.3175" y1="0.9525" x2="0.3175" y2="-0.3175" width="0.1778" layer="51"/>
+<wire x1="0.3175" y1="-0.3175" x2="1.5875" y2="-0.3175" width="0.1778" layer="51"/>
+<wire x1="1.5875" y1="-0.3175" x2="1.5875" y2="-0.9525" width="0.1778" layer="51"/>
+<wire x1="1.5875" y1="-0.9525" x2="0.3175" y2="-0.9525" width="0.1778" layer="51"/>
+<wire x1="0.3175" y1="-0.9525" x2="0.3175" y2="-2.2225" width="0.1778" layer="51"/>
+<wire x1="0.3175" y1="-2.2225" x2="-0.3175" y2="-2.2225" width="0.1778" layer="51"/>
+<wire x1="-0.3175" y1="-2.2225" x2="-0.3175" y2="-0.9525" width="0.1778" layer="51"/>
+<wire x1="-0.3175" y1="-0.9525" x2="-1.5875" y2="-0.9525" width="0.1778" layer="51"/>
+<wire x1="-1.5875" y1="-0.9525" x2="-1.5875" y2="-0.3175" width="0.1778" layer="51"/>
+<wire x1="-1.5875" y1="-2.54" x2="1.5875" y2="-2.54" width="0.1778" layer="51" curve="-280.388858"/>
+<wire x1="-3.4925" y1="2.8575" x2="3.4925" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="3.4925" y1="2.8575" x2="3.4925" y2="-4.1275" width="0.1778" layer="21"/>
+<wire x1="3.4925" y1="-4.1275" x2="-3.4925" y2="-4.1275" width="0.1778" layer="21"/>
+<wire x1="-3.4925" y1="-4.1275" x2="-3.4925" y2="2.8575" width="0.1778" layer="21"/>
+<circle x="0" y="-0.635" radius="1.8513" width="0.1778" layer="51"/>
+<pad name="3" x="2.54" y="-3.175" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="1" x="-2.54" y="-3.175" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="-0.635" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-3.302" y="3.302" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.2766" y="-5.842" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="1.0795" y="-3.81" size="0.9906" layer="21" ratio="12">3</text>
+<text x="-1.651" y="-3.81" size="0.9906" layer="21" ratio="12">1</text>
+</package>
+<package name="3386X" urn="urn:adsk.eagle:footprint:29261914/1">
+<description>3/8" Square Trimmer</description>
+<wire x1="4.7625" y1="-2.2225" x2="4.7625" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="4.7625" y1="2.8575" x2="4.1275" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="4.1275" y1="2.54" x2="-4.1275" y2="2.54" width="0.1778" layer="21"/>
+<wire x1="-4.1275" y1="2.8575" x2="-4.7625" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="-4.7625" y1="2.8575" x2="-4.7625" y2="-2.2225" width="0.1778" layer="21"/>
+<wire x1="-4.7625" y1="-2.2225" x2="-0.9525" y2="-2.2225" width="0.1778" layer="21"/>
+<wire x1="0.9525" y1="-2.2225" x2="4.7625" y2="-2.2225" width="0.1778" layer="21"/>
+<wire x1="2.54" y1="-0.9525" x2="2.413" y2="-1.0795" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-0.9525" x2="2.413" y2="-0.8255" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-1.2065" x2="2.286" y2="-0.6985" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-1.2065" x2="2.159" y2="-1.3335" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-0.6985" x2="2.159" y2="-0.5715" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-1.0795" x2="2.413" y2="-0.8255" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-1.0795" x2="2.286" y2="-1.2065" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-0.8255" x2="2.286" y2="-0.6985" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-0.9525" x2="2.159" y2="-0.9525" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-0.9525" x2="-2.54" y2="-0.9525" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-0.9525" x2="2.159" y2="-0.5715" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-1.3335" x2="2.159" y2="-0.9525" width="0.127" layer="51"/>
+<wire x1="2.032" y1="-1.4605" x2="2.159" y2="-1.3335" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-0.5715" x2="2.032" y2="-0.4445" width="0.127" layer="51"/>
+<wire x1="2.032" y1="-0.4445" x2="2.032" y2="-1.4605" width="0.127" layer="51"/>
+<wire x1="-4.1275" y1="2.8575" x2="-4.1275" y2="2.54" width="0.1778" layer="21"/>
+<wire x1="4.1275" y1="2.8575" x2="4.1275" y2="2.54" width="0.1778" layer="21"/>
+<pad name="1" x="2.54" y="0.635" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="-2.54" y="0.635" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="-1.905" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-4.7625" y="-4.1275" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<text x="-3.4925" y="3.175" size="1.27" layer="27" ratio="12">&gt;VALUE</text>
+<text x="2.921" y="-1.905" size="1.27" layer="51" ratio="10">3</text>
+<text x="2.2225" y="0" size="1.016" layer="51" ratio="12">1</text>
+<text x="-0.3175" y="-2.54" size="1.016" layer="51" ratio="12">2</text>
+<text x="-2.8575" y="0" size="1.016" layer="51" ratio="12">3</text>
+</package>
+<package name="3386J" urn="urn:adsk.eagle:footprint:29261917/1">
+<description>3/8" Square Trimmer</description>
+<wire x1="4.7625" y1="-2.2225" x2="4.7625" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="4.7625" y1="2.8575" x2="4.1275" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="4.1275" y1="2.54" x2="-4.1275" y2="2.54" width="0.1778" layer="21"/>
+<wire x1="-4.1275" y1="2.8575" x2="-4.7625" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="-4.7625" y1="2.8575" x2="-4.7625" y2="-2.2225" width="0.1778" layer="21"/>
+<wire x1="-4.7625" y1="-2.2225" x2="4.7625" y2="-2.2225" width="0.1778" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="2.413" y2="-1.397" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-1.27" x2="2.413" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-1.524" x2="2.286" y2="-1.016" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-1.524" x2="2.159" y2="-1.651" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-1.016" x2="2.159" y2="-0.889" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-1.397" x2="2.413" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-1.397" x2="2.286" y2="-1.524" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-1.143" x2="2.286" y2="-1.016" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-1.27" x2="2.159" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-1.27" x2="-2.54" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-1.27" x2="2.159" y2="-0.889" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-1.651" x2="2.159" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="2.032" y1="-1.778" x2="2.159" y2="-1.651" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-0.889" x2="2.032" y2="-0.762" width="0.127" layer="51"/>
+<wire x1="2.032" y1="-0.762" x2="2.032" y2="-1.778" width="0.127" layer="51"/>
+<wire x1="-4.1275" y1="2.8575" x2="-4.1275" y2="2.54" width="0.1778" layer="21"/>
+<wire x1="4.1275" y1="2.8575" x2="4.1275" y2="2.54" width="0.1778" layer="21"/>
+<pad name="1" x="3.81" y="0.3175" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="-3.81" y="0.3175" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="0.3175" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-4.7625" y="-4.1275" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<text x="-3.4925" y="3.175" size="1.27" layer="27" ratio="12">&gt;VALUE</text>
+<text x="3.2385" y="-1.905" size="1.27" layer="51" ratio="10">3</text>
+<text x="3.4925" y="-0.3175" size="1.016" layer="51" ratio="12">1</text>
+<text x="-0.3175" y="-0.3175" size="1.016" layer="51" ratio="12">2</text>
+<text x="-4.1275" y="-0.3175" size="1.016" layer="51" ratio="12">3</text>
+</package>
+<package name="3386S" urn="urn:adsk.eagle:footprint:29261916/1">
+<description>3/8" Square Trimmer</description>
+<wire x1="4.7625" y1="-2.2225" x2="4.7625" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="4.7625" y1="2.8575" x2="4.1275" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="4.1275" y1="2.54" x2="-4.1275" y2="2.54" width="0.1778" layer="21"/>
+<wire x1="-4.1275" y1="2.8575" x2="-4.7625" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="-4.7625" y1="2.8575" x2="-4.7625" y2="-2.2225" width="0.1778" layer="21"/>
+<wire x1="-4.7625" y1="-2.2225" x2="4.7625" y2="-2.2225" width="0.1778" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="2.413" y2="-1.397" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-1.27" x2="2.413" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-1.524" x2="2.286" y2="-1.016" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-1.524" x2="2.159" y2="-1.651" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-1.016" x2="2.159" y2="-0.889" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-1.397" x2="2.413" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-1.397" x2="2.286" y2="-1.524" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-1.143" x2="2.286" y2="-1.016" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-1.27" x2="2.159" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-1.27" x2="-2.54" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-1.27" x2="2.159" y2="-0.889" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-1.651" x2="2.159" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="2.032" y1="-1.778" x2="2.159" y2="-1.651" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-0.889" x2="2.032" y2="-0.762" width="0.127" layer="51"/>
+<wire x1="2.032" y1="-0.762" x2="2.032" y2="-1.778" width="0.127" layer="51"/>
+<wire x1="-4.1275" y1="2.8575" x2="-4.1275" y2="2.54" width="0.1778" layer="21"/>
+<wire x1="4.1275" y1="2.8575" x2="4.1275" y2="2.54" width="0.1778" layer="21"/>
+<pad name="1" x="-3.81" y="0.3175" drill="0.8128" diameter="1.6764" shape="octagon" rot="R180"/>
+<pad name="3" x="3.81" y="0.3175" drill="0.8128" diameter="1.6764" shape="octagon" rot="R180"/>
+<pad name="2" x="0" y="0.3175" drill="0.8128" diameter="1.6764" shape="octagon" rot="R180"/>
+<text x="-4.7625" y="-4.1275" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<text x="-3.4925" y="3.175" size="1.27" layer="27" ratio="12">&gt;VALUE</text>
+<text x="3.2385" y="-1.905" size="1.27" layer="51" ratio="10">3</text>
+<text x="-4.1275" y="0" size="1.016" layer="51" ratio="12">1</text>
+<text x="-0.3175" y="0" size="1.016" layer="51" ratio="12">2</text>
+<text x="3.4925" y="0" size="1.016" layer="51" ratio="12">3</text>
+</package>
+<package name="3386W" urn="urn:adsk.eagle:footprint:29261915/1">
+<description>3/8" Square Trimmer</description>
+<wire x1="4.7625" y1="-2.2225" x2="4.7625" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="4.7625" y1="2.8575" x2="4.1275" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="4.1275" y1="2.54" x2="-4.1275" y2="2.54" width="0.1778" layer="21"/>
+<wire x1="-4.1275" y1="2.8575" x2="-4.7625" y2="2.8575" width="0.1778" layer="21"/>
+<wire x1="-4.7625" y1="2.8575" x2="-4.7625" y2="-2.2225" width="0.1778" layer="21"/>
+<wire x1="-4.7625" y1="-2.2225" x2="4.7625" y2="-2.2225" width="0.1778" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="2.413" y2="-1.397" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-1.27" x2="2.413" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-1.524" x2="2.286" y2="-1.016" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-1.524" x2="2.159" y2="-1.651" width="0.127" layer="51"/>
+<wire x1="2.286" y1="-1.016" x2="2.159" y2="-0.889" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-1.397" x2="2.413" y2="-1.143" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-1.397" x2="2.286" y2="-1.524" width="0.127" layer="51"/>
+<wire x1="2.413" y1="-1.143" x2="2.286" y2="-1.016" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-1.27" x2="2.159" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-1.27" x2="-2.54" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-1.27" x2="2.159" y2="-0.889" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-1.651" x2="2.159" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="2.032" y1="-1.778" x2="2.159" y2="-1.651" width="0.127" layer="51"/>
+<wire x1="2.159" y1="-0.889" x2="2.032" y2="-0.762" width="0.127" layer="51"/>
+<wire x1="2.032" y1="-0.762" x2="2.032" y2="-1.778" width="0.127" layer="51"/>
+<wire x1="-4.1275" y1="2.8575" x2="-4.1275" y2="2.54" width="0.1778" layer="21"/>
+<wire x1="4.1275" y1="2.8575" x2="4.1275" y2="2.54" width="0.1778" layer="21"/>
+<pad name="1" x="2.54" y="0.3175" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="-2.54" y="0.3175" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="0.3175" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-4.7625" y="-4.1275" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<text x="-3.4925" y="3.175" size="1.27" layer="27" ratio="12">&gt;VALUE</text>
+<text x="3.2385" y="-1.905" size="1.27" layer="51" ratio="10">3</text>
+<text x="2.2225" y="-0.3175" size="1.016" layer="51" ratio="12">1</text>
+<text x="-0.3175" y="-0.3175" size="1.016" layer="51" ratio="12">2</text>
+<text x="-2.8575" y="-0.3175" size="1.016" layer="51" ratio="12">3</text>
+</package>
+<package name="3362R" urn="urn:adsk.eagle:footprint:29261934/1">
+<description>1/4" Square Trimmer</description>
+<wire x1="-1.778" y1="-1.778" x2="-2.032" y2="-2.032" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="-1.778" x2="2.032" y2="-2.032" width="0.1524" layer="51"/>
+<wire x1="2.5146" y1="0" x2="2.8956" y2="0" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="1.651" x2="2.032" y2="1.905" width="0.1524" layer="51"/>
+<wire x1="0" y1="2.4638" x2="0" y2="2.8448" width="0.1524" layer="51"/>
+<wire x1="-1.905" y1="1.651" x2="-2.159" y2="1.905" width="0.1524" layer="51"/>
+<wire x1="-2.5146" y1="0" x2="-2.8956" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.5875" y1="0.3175" x2="-0.3175" y2="0.3175" width="0.1778" layer="51"/>
+<wire x1="-0.3175" y1="0.3175" x2="-0.3175" y2="1.5875" width="0.1778" layer="51"/>
+<wire x1="-0.3175" y1="1.5875" x2="0.3175" y2="1.5875" width="0.1778" layer="51"/>
+<wire x1="0.3175" y1="1.5875" x2="0.3175" y2="0.3175" width="0.1778" layer="51"/>
+<wire x1="0.3175" y1="0.3175" x2="1.5875" y2="0.3175" width="0.1778" layer="51"/>
+<wire x1="1.5875" y1="0.3175" x2="1.5875" y2="-0.3175" width="0.1778" layer="51"/>
+<wire x1="1.5875" y1="-0.3175" x2="0.3175" y2="-0.3175" width="0.1778" layer="51"/>
+<wire x1="0.3175" y1="-0.3175" x2="0.3175" y2="-1.5875" width="0.1778" layer="51"/>
+<wire x1="0.3175" y1="-1.5875" x2="-0.3175" y2="-1.5875" width="0.1778" layer="51"/>
+<wire x1="-0.3175" y1="-1.5875" x2="-0.3175" y2="-0.3175" width="0.1778" layer="51"/>
+<wire x1="-0.3175" y1="-0.3175" x2="-1.5875" y2="-0.3175" width="0.1778" layer="51"/>
+<wire x1="-1.5875" y1="-0.3175" x2="-1.5875" y2="0.3175" width="0.1778" layer="51"/>
+<wire x1="-1.5875" y1="-1.905" x2="1.5875" y2="-1.905" width="0.1778" layer="51" curve="-280.388858"/>
+<wire x1="-3.4925" y1="3.4925" x2="3.4925" y2="3.4925" width="0.1778" layer="21"/>
+<wire x1="3.4925" y1="3.4925" x2="3.4925" y2="-3.4925" width="0.1778" layer="21"/>
+<wire x1="3.4925" y1="-3.4925" x2="-3.4925" y2="-3.4925" width="0.1778" layer="21"/>
+<wire x1="-3.4925" y1="-3.4925" x2="-3.4925" y2="3.4925" width="0.1778" layer="21"/>
+<circle x="0" y="0" radius="1.8513" width="0.1778" layer="51"/>
+<pad name="3" x="2.54" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="-2.54" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-3.302" y="3.937" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.2766" y="-5.207" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="2.3495" y="-3.175" size="0.9906" layer="21" ratio="12">3</text>
+<text x="-2.921" y="-3.175" size="0.9906" layer="21" ratio="12">1</text>
+</package>
+<package name="3362P" urn="urn:adsk.eagle:footprint:29261933/1">
+<description>1/4" Square Trimmer</description>
+<wire x1="-1.778" y1="-1.778" x2="-2.032" y2="-2.032" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="-1.778" x2="2.032" y2="-2.032" width="0.1524" layer="51"/>
+<wire x1="2.5146" y1="0" x2="2.8956" y2="0" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="1.651" x2="2.032" y2="1.905" width="0.1524" layer="51"/>
+<wire x1="0" y1="2.4638" x2="0" y2="2.8448" width="0.1524" layer="51"/>
+<wire x1="-1.905" y1="1.651" x2="-2.159" y2="1.905" width="0.1524" layer="51"/>
+<wire x1="-2.5146" y1="0" x2="-2.8956" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.5875" y1="0.3175" x2="-0.3175" y2="0.3175" width="0.1778" layer="51"/>
+<wire x1="-0.3175" y1="0.3175" x2="-0.3175" y2="1.5875" width="0.1778" layer="51"/>
+<wire x1="-0.3175" y1="1.5875" x2="0.3175" y2="1.5875" width="0.1778" layer="51"/>
+<wire x1="0.3175" y1="1.5875" x2="0.3175" y2="0.3175" width="0.1778" layer="51"/>
+<wire x1="0.3175" y1="0.3175" x2="1.5875" y2="0.3175" width="0.1778" layer="51"/>
+<wire x1="1.5875" y1="0.3175" x2="1.5875" y2="-0.3175" width="0.1778" layer="51"/>
+<wire x1="1.5875" y1="-0.3175" x2="0.3175" y2="-0.3175" width="0.1778" layer="51"/>
+<wire x1="0.3175" y1="-0.3175" x2="0.3175" y2="-1.5875" width="0.1778" layer="51"/>
+<wire x1="0.3175" y1="-1.5875" x2="-0.3175" y2="-1.5875" width="0.1778" layer="51"/>
+<wire x1="-0.3175" y1="-1.5875" x2="-0.3175" y2="-0.3175" width="0.1778" layer="51"/>
+<wire x1="-0.3175" y1="-0.3175" x2="-1.5875" y2="-0.3175" width="0.1778" layer="51"/>
+<wire x1="-1.5875" y1="-0.3175" x2="-1.5875" y2="0.3175" width="0.1778" layer="51"/>
+<wire x1="-1.5875" y1="-1.905" x2="1.5875" y2="-1.905" width="0.1778" layer="51" curve="-280.388858"/>
+<wire x1="-3.4925" y1="3.4925" x2="3.4925" y2="3.4925" width="0.1778" layer="21"/>
+<wire x1="3.4925" y1="3.4925" x2="3.4925" y2="-3.4925" width="0.1778" layer="21"/>
+<wire x1="3.4925" y1="-3.4925" x2="-3.4925" y2="-3.4925" width="0.1778" layer="21"/>
+<wire x1="-3.4925" y1="-3.4925" x2="-3.4925" y2="3.4925" width="0.1778" layer="21"/>
+<circle x="0" y="0" radius="1.8513" width="0.1778" layer="51"/>
+<pad name="3" x="2.54" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="2.54" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-3.302" y="3.937" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.2766" y="-5.207" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="2.3495" y="-3.175" size="0.9906" layer="21" ratio="12">3</text>
+<text x="-2.921" y="-3.175" size="0.9906" layer="21" ratio="12">1</text>
+</package>
+<package name="3362U" urn="urn:adsk.eagle:footprint:29261936/1">
+<description>1/4" Square Trimmer</description>
+<wire x1="-1.778" y1="-1.778" x2="-2.032" y2="-2.032" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="-1.778" x2="2.032" y2="-2.032" width="0.1524" layer="51"/>
+<wire x1="2.5146" y1="0" x2="2.8956" y2="0" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="1.651" x2="2.032" y2="1.905" width="0.1524" layer="51"/>
+<wire x1="0" y1="2.4638" x2="0" y2="2.8448" width="0.1524" layer="51"/>
+<wire x1="-1.905" y1="1.651" x2="-2.159" y2="1.905" width="0.1524" layer="51"/>
+<wire x1="-2.5146" y1="0" x2="-2.8956" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.5875" y1="0.3175" x2="-0.3175" y2="0.3175" width="0.1778" layer="51"/>
+<wire x1="-0.3175" y1="0.3175" x2="-0.3175" y2="1.5875" width="0.1778" layer="51"/>
+<wire x1="-0.3175" y1="1.5875" x2="0.3175" y2="1.5875" width="0.1778" layer="51"/>
+<wire x1="0.3175" y1="1.5875" x2="0.3175" y2="0.3175" width="0.1778" layer="51"/>
+<wire x1="0.3175" y1="0.3175" x2="1.5875" y2="0.3175" width="0.1778" layer="51"/>
+<wire x1="1.5875" y1="0.3175" x2="1.5875" y2="-0.3175" width="0.1778" layer="51"/>
+<wire x1="1.5875" y1="-0.3175" x2="0.3175" y2="-0.3175" width="0.1778" layer="51"/>
+<wire x1="0.3175" y1="-0.3175" x2="0.3175" y2="-1.5875" width="0.1778" layer="51"/>
+<wire x1="0.3175" y1="-1.5875" x2="-0.3175" y2="-1.5875" width="0.1778" layer="51"/>
+<wire x1="-0.3175" y1="-1.5875" x2="-0.3175" y2="-0.3175" width="0.1778" layer="51"/>
+<wire x1="-0.3175" y1="-0.3175" x2="-1.5875" y2="-0.3175" width="0.1778" layer="51"/>
+<wire x1="-1.5875" y1="-0.3175" x2="-1.5875" y2="0.3175" width="0.1778" layer="51"/>
+<wire x1="-1.5875" y1="-1.905" x2="1.5875" y2="-1.905" width="0.1778" layer="51" curve="-280.388858"/>
+<wire x1="-3.4925" y1="3.4925" x2="3.4925" y2="3.4925" width="0.1778" layer="21"/>
+<wire x1="3.4925" y1="3.4925" x2="3.4925" y2="-3.4925" width="0.1778" layer="21"/>
+<wire x1="3.4925" y1="-3.4925" x2="-3.4925" y2="-3.4925" width="0.1778" layer="21"/>
+<wire x1="-3.4925" y1="-3.4925" x2="-3.4925" y2="3.4925" width="0.1778" layer="21"/>
+<circle x="0" y="0" radius="1.8513" width="0.1778" layer="51"/>
+<pad name="3" x="2.54" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-3.302" y="3.937" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.2766" y="-5.207" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="2.3495" y="-3.175" size="0.9906" layer="21" ratio="12">3</text>
+<text x="-2.921" y="-3.175" size="0.9906" layer="21" ratio="12">1</text>
+</package>
+<package name="3362W" urn="urn:adsk.eagle:footprint:29262012/2">
+<description>3362 - 1/4 ” Square Trimpot ®  Trimming Potentiometer</description>
+<wire x1="-3.3" y1="-1.02" x2="-3.3" y2="3.68" width="0.15" layer="51"/>
+<wire x1="-3.3" y1="3.68" x2="3.3" y2="3.68" width="0.15" layer="51"/>
+<wire x1="3.3" y1="3.68" x2="3.3" y2="-1.02" width="0.15" layer="51"/>
+<wire x1="3.3" y1="-1.02" x2="-3.3" y2="-1.02" width="0.15" layer="51"/>
+<wire x1="-3.525" y1="-1.245" x2="-3.525" y2="3.905" width="0.1" layer="39"/>
+<wire x1="-3.525" y1="3.905" x2="3.525" y2="3.905" width="0.1" layer="39"/>
+<wire x1="3.525" y1="3.905" x2="3.525" y2="-1.245" width="0.1" layer="39"/>
+<wire x1="3.525" y1="-1.245" x2="-3.525" y2="-1.245" width="0.1" layer="39"/>
+<wire x1="-1" y1="-1.025" x2="1" y2="-1.025" width="0.15" layer="21"/>
+<wire x1="3.3" y1="3.675" x2="-3.3" y2="3.675" width="0.15" layer="21"/>
+<wire x1="-3.3" y1="3.675" x2="-3.3" y2="1.675" width="0.15" layer="21"/>
+<wire x1="3.3" y1="3.675" x2="3.3" y2="1.675" width="0.15" layer="21"/>
+<text x="-3.13" y="4.22" size="1" layer="25">&gt;NAME</text>
+<circle x="-4" y="-0.025" radius="0.25" width="0" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="0.65" diameter="1.15" shape="square"/>
+<pad name="3" x="2.54" y="0" drill="0.65" diameter="1.15"/>
+<pad name="2" x="0" y="2.54" drill="0.65" diameter="1.15"/>
+</package>
+<package name="3RP/1610N" urn="urn:adsk.eagle:footprint:1235095/1">
+<description>&lt;b&gt;16mm Potentiometer&lt;/b&gt; one level&lt;p&gt;
+Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
+<wire x1="-8.35" y1="-3.7" x2="8.35" y2="-3.7" width="0.2032" layer="21"/>
+<wire x1="-8.35" y1="-5.7" x2="-7.25" y2="-5.7" width="0.2032" layer="21"/>
+<wire x1="-8.35" y1="-3.7" x2="-8.35" y2="-5.7" width="0.2032" layer="21"/>
+<wire x1="-7.25" y1="-5.7" x2="-7.25" y2="-3.8" width="0.2032" layer="21"/>
+<wire x1="-8.35" y1="-1.7" x2="8.35" y2="-1.7" width="0.2032" layer="21"/>
+<wire x1="-8.35" y1="5.4" x2="8.35" y2="5.4" width="0.2032" layer="21"/>
+<wire x1="-2.9" y1="-10.2" x2="-2.9" y2="-13.7" width="0.2032" layer="21"/>
+<wire x1="2.9" y1="-13.7" x2="2.9" y2="-10.2" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="-3.8" x2="-3.4" y2="-9.9" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="-9.9" x2="-2.9" y2="-10.2" width="0.2032" layer="21"/>
+<wire x1="2.9" y1="-10.2" x2="3.4" y2="-9.9" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="-9.9" x2="3.4" y2="-3.8" width="0.2032" layer="21"/>
+<wire x1="-2.9" y1="-10.2" x2="2.9" y2="-10.2" width="0.2032" layer="21"/>
+<wire x1="-2.9" y1="-13.7" x2="2.9" y2="-13.7" width="0.2032" layer="21"/>
+<wire x1="-8.35" y1="-3.7" x2="-8.35" y2="5.4" width="0.2032" layer="21"/>
+<wire x1="8.35" y1="-3.7" x2="8.35" y2="5.4" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-9.525" x2="3.3" y2="-9" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-9.025" x2="3.3" y2="-8.5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-8.525" x2="3.3" y2="-8" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-8.025" x2="3.3" y2="-7.5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-7.525" x2="3.3" y2="-7" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-7.025" x2="3.3" y2="-6.5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-6.525" x2="3.3" y2="-6" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-6.025" x2="3.3" y2="-5.5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-5.525" x2="3.3" y2="-5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-5.025" x2="3.3" y2="-4.5" width="0.2032" layer="21"/>
+<wire x1="-3.3" y1="-4.525" x2="3.3" y2="-4" width="0.2032" layer="21"/>
+<wire x1="-3.075" y1="-10.025" x2="3.3" y2="-9.5" width="0.2032" layer="21"/>
+<pad name="1" x="-5" y="0" drill="1.2" diameter="2.1844"/>
+<pad name="2" x="0" y="0" drill="1.2" diameter="2.1844"/>
+<pad name="3" x="5" y="0" drill="1.2" diameter="2.1844"/>
+<text x="-8.255" y="5.715" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-3.175" y="2.54" size="1.27" layer="27" font="vector">&gt;VALUE</text>
+<text x="-6.604" y="1.143" size="0.8128" layer="21" font="vector">1</text>
+</package>
+<package name="3386-MULTI" urn="urn:adsk.eagle:footprint:29261929/1">
+<description>3/8" Square Trimmer (Multi-Package)</description>
+<wire x1="4.699" y1="-4.6482" x2="4.699" y2="4.7498" width="0.1778" layer="21"/>
+<wire x1="4.699" y1="4.7498" x2="-4.699" y2="4.7498" width="0.1778" layer="21"/>
+<wire x1="-4.699" y1="4.7498" x2="-4.699" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="0.635" y1="-0.635" x2="-0.635" y2="0.635" width="0.6096" layer="51"/>
+<wire x1="-4.699" y1="-4.6482" x2="-3.81" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="-3.81" y1="-4.6482" x2="-3.81" y2="-4.1275" width="0.1778" layer="21"/>
+<wire x1="-3.81" y1="-4.1275" x2="3.81" y2="-4.1275" width="0.1778" layer="21"/>
+<wire x1="3.81" y1="-4.1275" x2="3.81" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="4.699" y1="-4.6482" x2="3.81" y2="-4.6482" width="0.1778" layer="21"/>
+<wire x1="2.54" y1="3.81" x2="2.413" y2="3.683" width="0.127" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="2.413" y2="3.937" width="0.127" layer="51"/>
+<wire x1="2.286" y1="3.556" x2="2.286" y2="4.064" width="0.127" layer="51"/>
+<wire x1="2.286" y1="3.556" x2="2.159" y2="3.429" width="0.127" layer="51"/>
+<wire x1="2.286" y1="4.064" x2="2.159" y2="4.191" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.683" x2="2.413" y2="3.937" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.683" x2="2.286" y2="3.556" width="0.127" layer="51"/>
+<wire x1="2.413" y1="3.937" x2="2.286" y2="4.064" width="0.127" layer="51"/>
+<wire x1="2.54" y1="3.81" x2="2.159" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.81" x2="-2.54" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.81" x2="2.159" y2="4.191" width="0.127" layer="51"/>
+<wire x1="2.159" y1="3.429" x2="2.159" y2="3.81" width="0.127" layer="51"/>
+<wire x1="2.032" y1="3.302" x2="2.159" y2="3.429" width="0.127" layer="51"/>
+<wire x1="2.159" y1="4.191" x2="2.032" y2="4.318" width="0.127" layer="51"/>
+<wire x1="2.032" y1="4.318" x2="2.032" y2="3.302" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.27" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="1.905" width="0.127" layer="51"/>
+<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="3" x="2.54" y="0" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="2" x="0" y="-2.54" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="4" x="-2.54" y="2.54" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="6" x="2.54" y="2.54" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<pad name="5" x="0" y="2.54" drill="0.8128" diameter="1.6764" shape="octagon"/>
+<text x="-4.572" y="5.207" size="1.27" layer="25" ratio="12">&gt;NAME</text>
+<text x="6.985" y="-3.556" size="1.27" layer="27" ratio="12" rot="R90">&gt;VALUE</text>
+<text x="2.921" y="3.175" size="1.27" layer="51" ratio="10">3</text>
+</package>
+<package name="3296P1104LF" urn="urn:adsk.eagle:footprint:40894770/2">
+<description>&lt;b&gt;3296P-1-104LF-2&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="0.74" diameter="1.269"/>
+<pad name="2" x="-2.54" y="-2.54" drill="0.74" diameter="1.269"/>
+<pad name="3" x="0" y="-5.08" drill="0.74" diameter="1.269"/>
+<text x="0.215" y="-2.103" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0.215" y="-2.103" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.8" y1="2.225" x2="5.23" y2="2.225" width="0.2" layer="51"/>
+<wire x1="5.23" y1="2.225" x2="5.23" y2="-7.305" width="0.2" layer="51"/>
+<wire x1="5.23" y1="-7.305" x2="-4.8" y2="-7.305" width="0.2" layer="51"/>
+<wire x1="-4.8" y1="-7.305" x2="-4.8" y2="2.225" width="0.2" layer="51"/>
+<wire x1="-4.8" y1="2.225" x2="5.23" y2="2.225" width="0.1" layer="21"/>
+<wire x1="5.23" y1="2.225" x2="5.23" y2="-7.305" width="0.1" layer="21"/>
+<wire x1="5.23" y1="-7.305" x2="-4.8" y2="-7.305" width="0.1" layer="21"/>
+<wire x1="-4.8" y1="-7.305" x2="-4.8" y2="2.225" width="0.1" layer="21"/>
+<wire x1="-5.8" y1="4.1" x2="6.23" y2="4.1" width="0.1" layer="51"/>
+<wire x1="6.23" y1="4.1" x2="6.23" y2="-8.305" width="0.1" layer="51"/>
+<wire x1="6.23" y1="-8.305" x2="-5.8" y2="-8.305" width="0.1" layer="51"/>
+<wire x1="-5.8" y1="-8.305" x2="-5.8" y2="4.1" width="0.1" layer="51"/>
+<wire x1="0" y1="3" x2="0.2" y2="3" width="0.2" layer="21" curve="180"/>
+<wire x1="0.2" y1="3" x2="0" y2="3" width="0.2" layer="21" curve="180"/>
+<wire x1="-4.826" y1="-6.731" x2="-5.334" y2="-6.731" width="0.1524" layer="21"/>
+<wire x1="-5.334" y1="-6.731" x2="-5.334" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="-5.334" y1="-4.953" x2="-4.826" y2="-4.953" width="0.1524" layer="21"/>
+<wire x1="-4.826" y1="-4.953" x2="-4.826" y2="-5.08" width="0.1524" layer="21"/>
+</package>
+<package name="TRIMPOT-PTH-3386U" urn="urn:adsk.eagle:footprint:39632/1">
+<description>&lt;h3&gt;Trimpot - PTH, Trimpot w/ finger-adjustable knob&lt;/h3&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/products/9806"&gt;Trimpot 10K with Knob&lt;/a&gt; (COM-09806)&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.sparkfun.com/datasheets/Components/General/TSR-3386.pdf"&gt;Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<circle x="0" y="0.575" radius="4" width="0.127" layer="51"/>
+<wire x1="-4.765" y1="-4.765" x2="-4" y2="-4.765" width="0.2032" layer="21"/>
+<wire x1="4" y1="-4.765" x2="4.765" y2="-4.765" width="0.2032" layer="21"/>
+<wire x1="4.765" y1="-4.765" x2="4.765" y2="4.765" width="0.2032" layer="21"/>
+<wire x1="4.765" y1="4.765" x2="-4.765" y2="4.765" width="0.2032" layer="21"/>
+<wire x1="-4.765" y1="4.765" x2="-4.765" y2="-4.765" width="0.2032" layer="21"/>
+<wire x1="-1.5" y1="2.2" x2="-0.5" y2="2.2" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="2.2" x2="-0.5" y2="-1.8" width="0.127" layer="51"/>
+<wire x1="-0.5" y1="-1.8" x2="0.5" y2="-1.8" width="0.127" layer="51"/>
+<wire x1="0.5" y1="-1.8" x2="0.5" y2="2.2" width="0.127" layer="51"/>
+<wire x1="0.5" y1="2.2" x2="1.5" y2="2.2" width="0.127" layer="51"/>
+<wire x1="0" y1="3.7" x2="-1.5" y2="2.2" width="0.127" layer="51"/>
+<wire x1="1.5" y1="2.2" x2="0" y2="3.7" width="0.127" layer="51"/>
+<wire x1="-4" y1="-4.765" x2="-4" y2="-4.365" width="0.2032" layer="21"/>
+<wire x1="-4" y1="-4.365" x2="4" y2="-4.365" width="0.2032" layer="21"/>
+<wire x1="4" y1="-4.365" x2="4" y2="-4.765" width="0.2032" layer="21"/>
+<pad name="1" x="-2.54" y="-0.015" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="2" x="0" y="-0.015" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="2.54" y="-0.015" drill="1.016" diameter="1.8796"/>
+<text x="0" y="4.953" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-4.572" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+<package name="PTL6015G1103B2" urn="urn:adsk.eagle:footprint:36878611/1">
+<description>&lt;b&gt;PTL60-15G1-103B2-5&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.3" diameter="1.95"/>
+<pad name="2" x="0" y="2.5" drill="1.3" diameter="1.95"/>
+<pad name="3" x="70" y="0" drill="1.3" diameter="1.95"/>
+<pad name="B1" x="70" y="-5" drill="1.3" diameter="1.95"/>
+<pad name="E1" x="0" y="-5" drill="1.3" diameter="1.95"/>
+<pad name="L1" x="0" y="-2.5" drill="1.3" diameter="1.95"/>
+<text x="5.186" y="-3.282" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="5.44" y="-4.806" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.5" y1="3.25" x2="72.5" y2="3.25" width="0.2" layer="51"/>
+<wire x1="72.5" y1="3.25" x2="72.5" y2="-5.75" width="0.2" layer="51"/>
+<wire x1="72.5" y1="-5.75" x2="-2.5" y2="-5.75" width="0.2" layer="51"/>
+<wire x1="-2.5" y1="-5.75" x2="-2.5" y2="3.25" width="0.2" layer="51"/>
+<wire x1="-3.7" y1="3.975" x2="73" y2="3.975" width="0.1" layer="51"/>
+<wire x1="73" y1="3.975" x2="73" y2="-6.475" width="0.1" layer="51"/>
+<wire x1="73" y1="-6.475" x2="-3.7" y2="-6.475" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="-6.475" x2="-3.7" y2="3.975" width="0.1" layer="51"/>
+<wire x1="-3.1" y1="0.05" x2="-3.1" y2="-0.15" width="0.2" layer="21" curve="180"/>
+<wire x1="-3.1" y1="-0.15" x2="-3.1" y2="0.05" width="0.2" layer="21" curve="180"/>
+<wire x1="-1.5" y1="3.25" x2="-2.5" y2="3.25" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="3.25" x2="-2.5" y2="-5.75" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="-5.75" x2="-1.5" y2="-5.75" width="0.1" layer="21"/>
+<wire x1="71.5" y1="-5.75" x2="72.5" y2="-5.75" width="0.1" layer="21"/>
+<wire x1="72.5" y1="-5.75" x2="72.5" y2="3.25" width="0.1" layer="21"/>
+<wire x1="72.5" y1="3.25" x2="1.5" y2="3.25" width="0.1" layer="21"/>
+<wire x1="1.5" y1="-5.75" x2="68.5" y2="-5.75" width="0.1" layer="21"/>
+</package>
+<package name="3386P1103TLF" urn="urn:adsk.eagle:footprint:27555556/2">
+<description>&lt;b&gt;3386P-1-103TLF-1&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="0.76" diameter="1.303"/>
+<pad name="2" x="-2.54" y="2.54" drill="0.76" diameter="1.303"/>
+<pad name="3" x="-5.08" y="0" drill="0.76" diameter="1.303"/>
+<wire x1="-7.305" y1="4.75" x2="2.225" y2="4.75" width="0.2" layer="51"/>
+<wire x1="2.225" y1="4.75" x2="2.225" y2="-4.78" width="0.2" layer="51"/>
+<wire x1="-7.305" y1="-4.78" x2="-7.305" y2="4.75" width="0.2" layer="51"/>
+<wire x1="2.225" y1="-4.78" x2="2.225" y2="4.75" width="0.1" layer="21"/>
+<wire x1="2.225" y1="4.75" x2="-7.305" y2="4.75" width="0.1" layer="21"/>
+<wire x1="-7.305" y1="4.75" x2="-7.305" y2="-4.78" width="0.1" layer="21"/>
+<wire x1="2.9" y1="0" x2="3" y2="0" width="0.2" layer="21" curve="180"/>
+<wire x1="3" y1="0" x2="2.9" y2="0" width="0.2" layer="21" curve="180"/>
+<wire x1="2.9" y1="0" x2="3" y2="0" width="0.2" layer="21" curve="180"/>
+<wire x1="-7.305" y1="-4.765" x2="-6.54" y2="-4.765" width="0.2032" layer="21"/>
+<wire x1="1.46" y1="-4.765" x2="2.225" y2="-4.765" width="0.2032" layer="21"/>
+<wire x1="2.225" y1="-4.765" x2="2.225" y2="4.765" width="0.2032" layer="21"/>
+<wire x1="2.225" y1="4.765" x2="-7.305" y2="4.765" width="0.2032" layer="21"/>
+<wire x1="-7.305" y1="4.765" x2="-7.305" y2="-4.765" width="0.2032" layer="21"/>
+<wire x1="-4.294" y1="2.2" x2="-3.294" y2="2.2" width="0.127" layer="51"/>
+<wire x1="-3.294" y1="2.2" x2="-3.294" y2="-1.8" width="0.127" layer="51"/>
+<wire x1="-3.294" y1="-1.8" x2="-1.786" y2="-1.8" width="0.127" layer="51"/>
+<wire x1="-1.786" y1="-1.8" x2="-1.786" y2="2.2" width="0.127" layer="51"/>
+<wire x1="-1.786" y1="2.2" x2="-0.786" y2="2.2" width="0.127" layer="51"/>
+<wire x1="-2.54" y1="3.954" x2="-4.294" y2="2.2" width="0.127" layer="51"/>
+<wire x1="-0.786" y1="2.2" x2="-2.54" y2="3.954" width="0.127" layer="51"/>
+<wire x1="-6.54" y1="-4.765" x2="-6.54" y2="-4.365" width="0.2032" layer="21"/>
+<wire x1="-6.54" y1="-4.365" x2="1.46" y2="-4.365" width="0.2032" layer="21"/>
+<wire x1="1.46" y1="-4.365" x2="1.46" y2="-4.765" width="0.2032" layer="21"/>
+<circle x="-2.54" y="0.575" radius="4" width="0.127" layer="51"/>
+<text x="-2.54" y="4.953" size="0.7112" layer="25" font="vector" ratio="12" align="bottom-center">&gt;Name</text>
+<text x="-2.54" y="-4.572" size="0.7112" layer="27" font="vector" ratio="12" align="top-center">&gt;Value</text>
+</package>
+<package name="PTL3010R0103B2" urn="urn:adsk.eagle:footprint:36878613/1">
+<description>&lt;b&gt;PTL60-15G1-103B2-5&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.3" diameter="1.95"/>
+<pad name="2" x="0" y="2.5" drill="1.3" diameter="1.95"/>
+<pad name="3" x="40" y="0" drill="1.3" diameter="1.95"/>
+<pad name="B1" x="40" y="-5" drill="1.3" diameter="1.95"/>
+<pad name="E1" x="0" y="-5" drill="1.3" diameter="1.95"/>
+<pad name="L1" x="0" y="-2.5" drill="1.3" diameter="1.95"/>
+<text x="5.186" y="-2.393" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="5.44" y="-3.79" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.5" y1="3.25" x2="45.5" y2="3.25" width="0.2" layer="51"/>
+<wire x1="45.5" y1="3.25" x2="45.5" y2="-5.75" width="0.2" layer="51"/>
+<wire x1="45.5" y1="-5.75" x2="-2.5" y2="-5.75" width="0.2" layer="51"/>
+<wire x1="-2.5" y1="-5.75" x2="-2.5" y2="3.25" width="0.2" layer="51"/>
+<wire x1="-3.7" y1="3.975" x2="46.7" y2="3.975" width="0.1" layer="51"/>
+<wire x1="46.7" y1="3.975" x2="46.7" y2="-6.475" width="0.1" layer="51"/>
+<wire x1="46.7" y1="-6.475" x2="-3.7" y2="-6.475" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="-6.475" x2="-3.7" y2="3.975" width="0.1" layer="51"/>
+<wire x1="-3.1" y1="0.05" x2="-3.1" y2="-0.15" width="0.2" layer="21" curve="180"/>
+<wire x1="-3.1" y1="-0.15" x2="-3.1" y2="0.05" width="0.2" layer="21" curve="180"/>
+<wire x1="-1.5" y1="3.25" x2="-2.5" y2="3.25" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="3.25" x2="-2.5" y2="-5.75" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="-5.75" x2="-1.5" y2="-5.75" width="0.1" layer="21"/>
+<wire x1="45.5" y1="-5.75" x2="45.5" y2="3.25" width="0.1" layer="21"/>
+<wire x1="45.5" y1="3.25" x2="1.5" y2="3.25" width="0.1" layer="21"/>
+<wire x1="0" y1="-5.75" x2="45.5" y2="-5.75" width="0.1" layer="21"/>
+</package>
+<package name="PTL2010R0103B2" urn="urn:adsk.eagle:footprint:36878612/1">
+<description>&lt;b&gt;PTL60-15G1-103B2-5&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.3" diameter="1.95"/>
+<pad name="2" x="0" y="2.5" drill="1.3" diameter="1.95"/>
+<pad name="3" x="30" y="0" drill="1.3" diameter="1.95"/>
+<pad name="B1" x="30" y="-5" drill="1.3" diameter="1.95"/>
+<pad name="E1" x="0" y="-5" drill="1.3" diameter="1.95"/>
+<pad name="L1" x="0" y="-2.5" drill="1.3" diameter="1.95"/>
+<text x="5.186" y="-2.393" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="5.44" y="-3.79" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.5" y1="3.25" x2="35.5" y2="3.25" width="0.2" layer="51"/>
+<wire x1="35.5" y1="3.25" x2="35.5" y2="-5.75" width="0.2" layer="51"/>
+<wire x1="35.5" y1="-5.75" x2="-2.5" y2="-5.75" width="0.2" layer="51"/>
+<wire x1="-2.5" y1="-5.75" x2="-2.5" y2="3.25" width="0.2" layer="51"/>
+<wire x1="-3.7" y1="3.975" x2="36.7" y2="3.975" width="0.1" layer="51"/>
+<wire x1="36.7" y1="3.975" x2="36.7" y2="-6.475" width="0.1" layer="51"/>
+<wire x1="36.7" y1="-6.475" x2="-3.7" y2="-6.475" width="0.1" layer="51"/>
+<wire x1="-3.7" y1="-6.475" x2="-3.7" y2="3.975" width="0.1" layer="51"/>
+<wire x1="-3.1" y1="0.05" x2="-3.1" y2="-0.15" width="0.2" layer="21" curve="180"/>
+<wire x1="-3.1" y1="-0.15" x2="-3.1" y2="0.05" width="0.2" layer="21" curve="180"/>
+<wire x1="-1.5" y1="3.25" x2="-2.5" y2="3.25" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="3.25" x2="-2.5" y2="-5.75" width="0.1" layer="21"/>
+<wire x1="-2.5" y1="-5.75" x2="-1.5" y2="-5.75" width="0.1" layer="21"/>
+<wire x1="35.5" y1="-5.75" x2="35.5" y2="3.25" width="0.1" layer="21"/>
+<wire x1="35.5" y1="3.25" x2="1.5" y2="3.25" width="0.1" layer="21"/>
+<wire x1="0" y1="-5.75" x2="35.5" y2="-5.75" width="0.1" layer="21"/>
+</package>
+<package name="TRIMPOT-SMD-3MM-CLOSED" urn="urn:adsk.eagle:footprint:39634/1">
+<description>&lt;h3&gt;Trimpot - SMD, 3mm Square, Closed-Frame&lt;/h3&gt;
+&lt;p&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/12779"&gt;EasyDriver - Stepper Motor Driver&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.bitechnologies.com/pdfs/22.pdf"&gt;Datasheet&lt;/a&gt; (22AR10KTR)&lt;/p&gt;</description>
+<wire x1="-1" y1="1.6" x2="-1.6" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="1.6" x2="-1.6" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="1" y1="1.6" x2="1.6" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="1.6" y1="1.6" x2="1.6" y2="-1.6" width="0.2032" layer="21"/>
+<smd name="1" x="-0.85" y="-1.65" dx="1" dy="0.9" layer="1"/>
+<smd name="2" x="0" y="1.65" dx="1.1" dy="0.9" layer="1"/>
+<smd name="3" x="0.85" y="-1.65" dx="1" dy="0.9" layer="1"/>
+<text x="-1.778" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="1.778" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
+</package>
+<package name="TRIMPOT-SMD-5MM" urn="urn:adsk.eagle:footprint:39633/1">
+<description>&lt;h3&gt;Trimpot - SMD, 5mm Square, Closed-Frame&lt;/h3&gt;
+&lt;p&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/13613"&gt;IOIO-OTG - V2.2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.vishay.com/docs/51008/ts53.pdf"&gt;Datasheet&lt;/a&gt; (TS53YL502MR10)&lt;/p&gt;</description>
+<wire x1="-2.5" y1="-2.14" x2="-2.5" y2="2.86" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="2.86" x2="2.5" y2="2.86" width="0.127" layer="51"/>
+<wire x1="2.5" y1="2.86" x2="2.5" y2="-2.14" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-2.14" x2="-2.5" y2="-2.14" width="0.127" layer="51"/>
+<wire x1="-1.4" y1="2.96" x2="-2.6" y2="2.96" width="0.2032" layer="21"/>
+<wire x1="-2.6" y1="2.96" x2="-2.6" y2="1.56" width="0.2032" layer="21"/>
+<wire x1="1.409221875" y1="2.96" x2="2.6" y2="2.96" width="0.2032" layer="21"/>
+<wire x1="2.6" y1="2.96" x2="2.6" y2="1.56" width="0.2032" layer="21"/>
+<wire x1="-2.09398125" y1="-2.24" x2="-2.6" y2="-2.24" width="0.2032" layer="21"/>
+<wire x1="-2.6" y1="-2.24" x2="-2.6" y2="-1.54" width="0.2032" layer="21"/>
+<wire x1="2.1" y1="-2.24" x2="2.6" y2="-2.24" width="0.2032" layer="21"/>
+<wire x1="2.6" y1="-2.24" x2="2.6" y2="-1.54" width="0.2032" layer="21"/>
+<smd name="A" x="1.15" y="-2.54" dx="1.3" dy="1.3" layer="1"/>
+<smd name="B" x="0" y="3.2385" dx="2" dy="1.4016" layer="1" rot="R270"/>
+<smd name="C" x="-1.15" y="-2.54" dx="1.3" dy="1.3" layer="1"/>
+<text x="-2.794" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="2.794" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
+</package>
+<package name="TRIMPOT-SMD-TC33X" urn="urn:adsk.eagle:footprint:39635/1">
+<description>&lt;h3&gt;Bourns TC33X Trimpot - SMD, 3mm Square, Open-Frame&lt;/h3&gt;
+&lt;p&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/13899"&gt;Shapeoko&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.bourns.com/docs/Product-Datasheets/TC33.pdf"&gt;Datasheet&lt;/a&gt; (TS53YL502MR10)&lt;/p&gt;</description>
+<circle x="0" y="0" radius="1.15" width="0.1016" layer="51"/>
+<wire x1="-1.45" y1="1.75" x2="-1.45" y2="-1.65" width="0.254" layer="51"/>
+<wire x1="-1.45" y1="-1.65" x2="1.45" y2="-1.65" width="0.254" layer="51"/>
+<wire x1="1.45" y1="-1.65" x2="1.45" y2="1.75" width="0.254" layer="51"/>
+<wire x1="1.45" y1="1.75" x2="-1.45" y2="1.75" width="0.254" layer="51"/>
+<wire x1="-1.45" y1="-0.4" x2="-1.45" y2="1.75" width="0.254" layer="21"/>
+<wire x1="-1.45" y1="1.75" x2="-0.85" y2="1.75" width="0.254" layer="21"/>
+<wire x1="1.45" y1="-0.4" x2="1.45" y2="1.75" width="0.254" layer="21"/>
+<wire x1="1.45" y1="1.75" x2="0.85" y2="1.75" width="0.254" layer="21"/>
+<wire x1="-1.8034" y1="2.5019" x2="1.8034" y2="2.5019" width="0.0508" layer="39"/>
+<wire x1="1.8034" y1="2.5019" x2="1.8034" y2="-2.6289" width="0.0508" layer="39"/>
+<wire x1="1.8034" y1="-2.6289" x2="-1.8034" y2="-2.6289" width="0.0508" layer="39"/>
+<wire x1="-1.8034" y1="-2.6289" x2="-1.8034" y2="2.5019" width="0.0508" layer="39"/>
+<smd name="1" x="-1" y="-1.825" dx="1.2" dy="1.2" layer="1"/>
+<smd name="2" x="0" y="1.5" dx="1.5" dy="1.6" layer="1"/>
+<smd name="3" x="1" y="-1.825" dx="1.2" dy="1.2" layer="1"/>
+<text x="-1.905" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="1.905" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="POT-PTH-ALPS" urn="urn:adsk.eagle:package:1273083/2" type="model">
+<description>9mm Square Rotary Potentiometer - PTH
+Datasheet</description>
+<packageinstances>
+<packageinstance name="POT-PTH-ALPS"/>
+</packageinstances>
+</package3d>
+<package3d name="POT-PTH-ALPS-KIT" urn="urn:adsk.eagle:package:1273082/2" type="model">
+<description>9mm Square Rotary Potentiometer - PTH (KIT Variant)
+Warning: This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.
+Datasheet</description>
+<packageinstances>
+<packageinstance name="POT-PTH-ALPS-KIT"/>
+</packageinstances>
+</package3d>
+<package3d name="3386G" urn="urn:adsk.eagle:package:29261953/1" type="box">
+<description>3/8" Square Trimmer</description>
+<packageinstances>
+<packageinstance name="3386G"/>
+</packageinstances>
+</package3d>
+<package3d name="3386P" urn="urn:adsk.eagle:package:29261955/1" type="box">
+<description>3/8" Square Trimmer</description>
+<packageinstances>
+<packageinstance name="3386P"/>
+</packageinstances>
+</package3d>
+<package3d name="3386F" urn="urn:adsk.eagle:package:29261954/1" type="box">
+<description>3/8" Square Trimmer</description>
+<packageinstances>
+<packageinstance name="3386F"/>
+</packageinstances>
+</package3d>
+<package3d name="3386K" urn="urn:adsk.eagle:package:29261952/1" type="box">
+<description>3/8" Square Trimmer</description>
+<packageinstances>
+<packageinstance name="3386K"/>
+</packageinstances>
+</package3d>
+<package3d name="3386R" urn="urn:adsk.eagle:package:29261951/1" type="box">
+<description>3/8" Square Trimmer</description>
+<packageinstances>
+<packageinstance name="3386R"/>
+</packageinstances>
+</package3d>
+<package3d name="3386U" urn="urn:adsk.eagle:package:29261949/1" type="box">
+<description>3/8" Square Trimmer</description>
+<packageinstances>
+<packageinstance name="3386U"/>
+</packageinstances>
+</package3d>
+<package3d name="3386T" urn="urn:adsk.eagle:package:29261950/1" type="box">
+<description>3/8" Square Trimmer</description>
+<packageinstances>
+<packageinstance name="3386T"/>
+</packageinstances>
+</package3d>
+<package3d name="3386B" urn="urn:adsk.eagle:package:29261947/1" type="box">
+<description>3/8" Square Trimmer</description>
+<packageinstances>
+<packageinstance name="3386B"/>
+</packageinstances>
+</package3d>
+<package3d name="3386C" urn="urn:adsk.eagle:package:29261946/1" type="box">
+<description>3/8" Square Trimmer</description>
+<packageinstances>
+<packageinstance name="3386C"/>
+</packageinstances>
+</package3d>
+<package3d name="3386Y" urn="urn:adsk.eagle:package:29261948/1" type="box">
+<description>3/8" Square Trimmer</description>
+<packageinstances>
+<packageinstance name="3386Y"/>
+</packageinstances>
+</package3d>
+<package3d name="3386S" urn="urn:adsk.eagle:package:29261943/1" type="box">
+<description>3/8" Square Trimmer</description>
+<packageinstances>
+<packageinstance name="3386S"/>
+</packageinstances>
+</package3d>
+<package3d name="3386H" urn="urn:adsk.eagle:package:29261945/1" type="box">
+<description>3/8" Square Trimmer</description>
+<packageinstances>
+<packageinstance name="3386H"/>
+</packageinstances>
+</package3d>
+<package3d name="3386J" urn="urn:adsk.eagle:package:29261944/1" type="box">
+<description>3/8" Square Trimmer</description>
+<packageinstances>
+<packageinstance name="3386J"/>
+</packageinstances>
+</package3d>
+<package3d name="3362H" urn="urn:adsk.eagle:package:29261940/1" type="box">
+<description>1/4" Square Trimmer</description>
+<packageinstances>
+<packageinstance name="3362H"/>
+</packageinstances>
+</package3d>
+<package3d name="3386X" urn="urn:adsk.eagle:package:29261941/1" type="box">
+<description>3/8" Square Trimmer</description>
+<packageinstances>
+<packageinstance name="3386X"/>
+</packageinstances>
+</package3d>
+<package3d name="3386W" urn="urn:adsk.eagle:package:29261942/1" type="box">
+<description>3/8" Square Trimmer</description>
+<packageinstances>
+<packageinstance name="3386W"/>
+</packageinstances>
+</package3d>
+<package3d name="3362P" urn="urn:adsk.eagle:package:29261939/1" type="box">
+<description>1/4" Square Trimmer</description>
+<packageinstances>
+<packageinstance name="3362P"/>
+</packageinstances>
+</package3d>
+<package3d name="3362R" urn="urn:adsk.eagle:package:29261938/1" type="box">
+<description>1/4" Square Trimmer</description>
+<packageinstances>
+<packageinstance name="3362R"/>
+</packageinstances>
+</package3d>
+<package3d name="BOURNS_3362W-1-103LF_0" urn="urn:adsk.eagle:package:29262013/2" type="box">
+<description>3362 - 1/4 ” Square Trimpot ®  Trimming Potentiometer</description>
+<packageinstances>
+<packageinstance name="3362W"/>
+</packageinstances>
+</package3d>
+<package3d name="3362U" urn="urn:adsk.eagle:package:29261937/1" type="box">
+<description>1/4" Square Trimmer</description>
+<packageinstances>
+<packageinstance name="3362U"/>
+</packageinstances>
+</package3d>
+<package3d name="3RP/1610N" urn="urn:adsk.eagle:package:1235096/3" type="model">
+<description>16mm Potentiometer one level
+Source: http://www.alphapotentiometers.net/html/16mm_pot_2.html</description>
+<packageinstances>
+<packageinstance name="3RP/1610N"/>
+</packageinstances>
+</package3d>
+<package3d name="PTL6015G1103B2" urn="urn:adsk.eagle:package:36878614/1" type="box">
+<description>&lt;b&gt;PTL60-15G1-103B2-5&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="PTL6015G1103B2"/>
+</packageinstances>
+</package3d>
+<package3d name="3386-MULTI" urn="urn:adsk.eagle:package:29261956/1" type="box">
+<description>3/8" Square Trimmer (Multi-Package)</description>
+<packageinstances>
+<packageinstance name="3386-MULTI"/>
+</packageinstances>
+</package3d>
+<package3d name="PTL2010R0103B2" urn="urn:adsk.eagle:package:36878615/1" type="box">
+<description>&lt;b&gt;PTL60-15G1-103B2-5&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="PTL2010R0103B2"/>
+</packageinstances>
+</package3d>
+<package3d name="PTL3010R0103B2" urn="urn:adsk.eagle:package:36878616/1" type="box">
+<description>&lt;b&gt;PTL60-15G1-103B2-5&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="PTL3010R0103B2"/>
+</packageinstances>
+</package3d>
+<package3d name="3386P1103TLF" urn="urn:adsk.eagle:package:27555558/2" type="box">
+<description>&lt;b&gt;3386P-1-103TLF-1&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="3386P1103TLF"/>
+</packageinstances>
+</package3d>
+<package3d name="3296P1104LF" urn="urn:adsk.eagle:package:40894771/2" type="box">
+<description>&lt;b&gt;3296P-1-104LF-2&lt;/b&gt;&lt;br&gt;</description>
+<packageinstances>
+<packageinstance name="3296P1104LF"/>
+</packageinstances>
+</package3d>
+<package3d name="TRIMPOT-PTH-3386U" urn="urn:adsk.eagle:package:39662/1" type="box">
+<description>Trimpot - PTH, Trimpot w/ finger-adjustable knob
+Trimpot 10K with Knob (COM-09806)
+Datasheet</description>
+<packageinstances>
+<packageinstance name="TRIMPOT-PTH-3386U"/>
+</packageinstances>
+</package3d>
+<package3d name="TRIMPOT-SMD-5MM" urn="urn:adsk.eagle:package:39663/1" type="box">
+<description>Trimpot - SMD, 5mm Square, Closed-Frame
+Used on e.g. IOIO-OTG - V2.2
+Datasheet (TS53YL502MR10)</description>
+<packageinstances>
+<packageinstance name="TRIMPOT-SMD-5MM"/>
+</packageinstances>
+</package3d>
+<package3d name="TRIMPOT-SMD-3MM-CLOSED" urn="urn:adsk.eagle:package:39665/1" type="box">
+<description>Trimpot - SMD, 3mm Square, Closed-Frame
+Used on e.g. EasyDriver - Stepper Motor Driver
+Datasheet (22AR10KTR)</description>
+<packageinstances>
+<packageinstance name="TRIMPOT-SMD-3MM-CLOSED"/>
+</packageinstances>
+</package3d>
+<package3d name="TRIMPOT-SMD-TC33X" urn="urn:adsk.eagle:package:39666/1" type="box">
+<description>Bourns TC33X Trimpot - SMD, 3mm Square, Open-Frame
+Used on e.g. Shapeoko
+Datasheet (TS53YL502MR10)</description>
+<packageinstances>
+<packageinstance name="TRIMPOT-SMD-TC33X"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="3386P-1-103TLF" urn="urn:adsk.eagle:symbol:27555557/1">
+<wire x1="5.08" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-5.08" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="24.13" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="24.13" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="CCW" x="0" y="-2.54" length="middle"/>
+<pin name="WIPER" x="27.94" y="0" length="middle" rot="R180"/>
+<pin name="CW" x="0" y="0" length="middle"/>
+</symbol>
+<symbol name="3296P-1-104LF" urn="urn:adsk.eagle:symbol:40894769/1">
+<wire x1="5.08" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-5.08" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="24.13" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="24.13" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="CCW" x="27.94" y="0" length="middle" rot="R180"/>
+<pin name="WIPER" x="0" y="0" length="middle"/>
+<pin name="CW" x="27.94" y="-2.54" length="middle" rot="R180"/>
+</symbol>
+<symbol name="POTENTIOMETER" urn="urn:adsk.eagle:symbol:1273079/1">
+<description>&lt;h3&gt;Potentiometer (Pot)&lt;/h3&gt;
+&lt;p&gt;Three-terminal potentiometers, with an adjustable wiper and two adjustable resistors. A pot can be used to create a configurable voltage divider, or as a variable resistor.&lt;/p&gt;</description>
+<wire x1="0" y1="-5.08" x2="0" y2="-4.572" width="0.1524" layer="94"/>
+<wire x1="0" y1="-4.572" x2="-1.016" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-3.81" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="-1.016" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.016" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.27" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-1.016" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="3.81" x2="0" y2="4.572" width="0.254" layer="94"/>
+<wire x1="0" y1="4.572" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="-2.159" x2="2.667" y2="-3.429" width="0.1524" layer="94"/>
+<wire x1="2.667" y1="-3.429" x2="2.032" y2="-3.429" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="-3.429" x2="1.397" y2="-3.429" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="-3.429" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="-4.699" x2="2.032" y2="-3.429" width="0.1524" layer="94"/>
+<text x="3.048" y="-0.254" size="1.778" layer="95" font="vector" rot="R270">&gt;NAME</text>
+<text x="-1.27" y="0" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center">&gt;Value</text>
+<pin name="A" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="E" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<polygon width="0.2032" layer="94">
+<vertex x="2.54" y="-1.27"/>
+<vertex x="1.27" y="0"/>
+<vertex x="2.54" y="1.27"/>
+</polygon>
+</symbol>
+<symbol name="TPOT" urn="urn:adsk.eagle:symbol:29261930/1">
+<wire x1="-0.762" y1="2.54" x2="-0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="-0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-2.54" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-3.683" x2="-2.54" y2="-1.143" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-1.143" x2="-3.175" y2="-2.413" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-2.413" x2="-1.905" y2="-2.413" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-2.413" x2="-2.54" y2="-1.143" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="0" x2="-2.286" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.667" y1="1.905" x2="-2.286" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.286" y1="2.54" x2="-1.905" y2="3.175" width="0.1524" layer="94"/>
+<text x="-5.715" y="-3.81" size="1.524" layer="95" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.524" layer="96" ratio="10" rot="R90">&gt;VALUE</text>
+<text x="-1.905" y="-4.953" size="1.27" layer="94" rot="R90">1</text>
+<text x="-1.905" y="-0.508" size="1.27" layer="94" rot="R90">3</text>
+<pin name="1" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="TPOT-3U" urn="urn:adsk.eagle:symbol:29261931/1">
+<wire x1="-0.762" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="2.54" x2="-0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-3.683" x2="-2.54" y2="-1.143" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-1.143" x2="-3.175" y2="-2.413" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="-2.413" x2="-1.905" y2="-2.413" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-2.413" x2="-2.54" y2="-1.143" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="0" x2="-2.286" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.667" y1="1.905" x2="-2.286" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.286" y1="2.54" x2="-1.905" y2="3.175" width="0.1524" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-7.62" width="0.1524" layer="94"/>
+<text x="-5.715" y="-3.81" size="1.524" layer="95" ratio="10" rot="R90">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.524" layer="96" ratio="10" rot="R90">&gt;VALUE</text>
+<text x="-1.905" y="-4.953" size="1.27" layer="94" rot="R90">1</text>
+<text x="-1.905" y="-0.508" size="1.27" layer="94" rot="R90">3</text>
+<pin name="1" x="0" y="-7.62" visible="pad" length="point" direction="pas" rot="R180"/>
+<pin name="3" x="0" y="7.62" visible="pad" length="point" direction="pas" rot="R180"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="point" direction="pas" rot="R270"/>
+<pin name="5" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R270"/>
+<pin name="6" x="0" y="5.08" visible="off" length="point" direction="pas" rot="R180"/>
+<pin name="4" x="0" y="-5.08" visible="off" length="point" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="POT_US-" urn="urn:adsk.eagle:symbol:1235094/1">
+<wire x1="0" y1="-5.08" x2="0" y2="-4.572" width="0.1524" layer="94"/>
+<wire x1="0" y1="-4.572" x2="-1.016" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-3.81" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="-1.016" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.016" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="1.27" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="-1.016" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="3.81" x2="0" y2="4.572" width="0.254" layer="94"/>
+<wire x1="0" y1="4.572" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="1.27" y2="0" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.2032" layer="94"/>
+<wire x1="2.032" y1="-4.699" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="2.032" y1="-2.159" x2="2.667" y2="-3.429" width="0.1524" layer="94"/>
+<wire x1="2.667" y1="-3.429" x2="1.397" y2="-3.429" width="0.1524" layer="94"/>
+<wire x1="1.397" y1="-3.429" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
+<text x="-5.08" y="-2.54" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="A" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="B" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="WIPER" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="PTL60-15G1-103B2" urn="urn:adsk.eagle:symbol:36878610/1">
+<wire x1="5.08" y1="2.54" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-10.16" x2="27.94" y2="2.54" width="0.254" layer="94"/>
+<wire x1="27.94" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<text x="29.21" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="29.21" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="CCW" x="0" y="-2.54" length="middle"/>
+<pin name="WIPER" x="0" y="0" length="middle"/>
+<pin name="CW" x="33.02" y="0" length="middle" rot="R180"/>
+<pin name="B_(+)" x="33.02" y="-2.54" length="middle" rot="R180"/>
+<pin name="E_(-)" x="0" y="-7.62" length="middle"/>
+<pin name="L_DUMMY" x="0" y="-5.08" length="middle"/>
+</symbol>
+<symbol name="TRIMPOT" urn="urn:adsk.eagle:symbol:6731851/1">
+<description>&lt;h3&gt;Trimming Potentiometer (Trimpot)&lt;/h3&gt;
+&lt;p&gt;Three-terminal potentiometers, with an adjustable wiper and two adjustable resistors. A pot can be used to create a configurable voltage divider, or as a variable resistor.&lt;/p&gt;
+&lt;p&gt;"Trimpots" are a subset of potentiometers, usually intended for "set-and-forget" applications. They're often more delicate than standard potentiometers - rated for fewer turns.&lt;/p&gt;</description>
+<pin name="CCW" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="CW" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="WIPER" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="0" y1="-2.54" x2="-1.016" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="-2.159" x2="1.016" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-1.524" x2="-1.016" y2="-0.889" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="-0.889" x2="1.016" y2="-0.254" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-0.254" x2="-1.016" y2="0.381" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="0.381" x2="1.016" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="1.016" x2="-1.016" y2="1.651" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="1.651" x2="1.016" y2="2.286" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="2.286" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<text x="-1.524" y="2.54" size="1.778" layer="95" font="vector" rot="R90">&gt;NAME</text>
+<text x="1.524" y="2.54" size="1.778" layer="96" font="vector" rot="R90" align="top-left">&gt;VALUE</text>
+<polygon width="0.1524" layer="94">
+<vertex x="1.016" y="0"/>
+<vertex x="2.54" y="-1.016"/>
+<vertex x="2.54" y="1.016"/>
+</polygon>
+</symbol>
+<symbol name="BOURNS_3362W-1-103LF_0_0" urn="urn:adsk.eagle:symbol:29262011/1">
+<description>3362 - 1/4 ” Square Trimpot ®  Trimming Potentiometer</description>
+<wire x1="2.54" y1="-2.54" x2="3.302" y2="-1.27" width="0.508" layer="94"/>
+<wire x1="3.302" y1="-1.27" x2="4.572" y2="-3.81" width="0.508" layer="94"/>
+<wire x1="4.572" y1="-3.81" x2="5.842" y2="-1.27" width="0.508" layer="94"/>
+<wire x1="5.842" y1="-1.27" x2="7.112" y2="-3.81" width="0.508" layer="94"/>
+<wire x1="7.112" y1="-3.81" x2="8.382" y2="-1.27" width="0.508" layer="94"/>
+<wire x1="8.382" y1="-1.27" x2="9.652" y2="-3.81" width="0.508" layer="94"/>
+<wire x1="9.652" y1="-3.81" x2="10.16" y2="-2.54" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-4.318" x2="6.858" y2="-5.334" width="0.508" layer="94"/>
+<wire x1="7.62" y1="-4.318" x2="8.382" y2="-5.334" width="0.508" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.15" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="10.16" y2="-2.54" width="0.15" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="-4.318" width="0.15" layer="94"/>
+<text x="2.286" y="4.064" size="2.54" layer="95" align="top-left">&gt;NAME</text>
+<text x="2.286" y="1.524" size="2.54" layer="95" align="top-left">3362W-1-103LF</text>
+<pin name="CCW" x="-2.54" y="-2.54" visible="pad" length="middle"/>
+<pin name="CW" x="15.24" y="-2.54" visible="pad" length="middle" rot="R180"/>
+<pin name="WIPER" x="7.62" y="-10.16" visible="pad" length="middle" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="POTENTIOMETER" prefix="VR" uservalue="yes" urn="urn:adsk.eagle:component:1273084/3">
+<description>&lt;h3&gt;Potentiometer (Pot)&lt;/h3&gt;
+&lt;p&gt;Three-terminal potentiometers, with an adjustable wiper and two adjustable resistors. A pot can be used to create a configurable voltage divider, or as a variable resistor.&lt;/p&gt;
+&lt;h4&gt;Variants&lt;/h4&gt;
+&lt;h5&gt;ALPS_POT and ALPS_POT_KIT - PTH, breadboard compatible, 9mm square pots&lt;/h5&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/9288"&gt;Rotary Potentiometer - Linear (10k ohm)&lt;/a&gt; (COM-09288)&lt;/li&gt;
+&lt;li&gt;The &lt;b&gt;KIT&lt;/b&gt; variant exposes copper on only one side of the PTH pad, so the part can only be assembled on one side of the PCB. Useful for beginner soldering kits.&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="POTENTIOMETER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="2" package="POT-PTH-ALPS">
+<connects>
+<connect gate="G$1" pin="A" pad="P$3"/>
+<connect gate="G$1" pin="E" pad="P$1"/>
+<connect gate="G$1" pin="S" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1273083/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-09177"/>
+<attribute name="SF_SKU" value="COM-09288"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="1" package="POT-PTH-ALPS-KIT">
+<connects>
+<connect gate="G$1" pin="A" pad="P$3"/>
+<connect gate="G$1" pin="E" pad="P$1"/>
+<connect gate="G$1" pin="S" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1273082/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-09177"/>
+<attribute name="SF_SKU" value="COM-09288"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3386-" prefix="R" uservalue="yes" urn="urn:adsk.eagle:component:29261957/1">
+<description>&lt;b&gt;3386 Series&lt;/b&gt;&lt;p&gt;
+3/8" Square Trimmer</description>
+<gates>
+<gate name="G$1" symbol="TPOT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="P" package="3386P">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29261955/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="F" package="3386F">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29261954/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="G" package="3386G">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29261953/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="K" package="3386K">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29261952/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="R" package="3386R">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29261951/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="T" package="3386T">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29261950/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="U" package="3386U">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29261949/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="Y" package="3386Y">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29261948/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="B" package="3386B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29261947/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="C" package="3386C">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29261946/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="H" package="3386H">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29261945/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="J" package="3386J">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29261944/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="S" package="3386S">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29261943/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="W" package="3386W">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29261942/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="X" package="3386X">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29261941/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3362" prefix="R" uservalue="yes" urn="urn:adsk.eagle:component:29261959/3">
+<description>&lt;b&gt;3362 Series&lt;/b&gt;&lt;p&gt;
+1/4" Square Trimmer</description>
+<gates>
+<gate name="G$1" symbol="TPOT" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="H" package="3362H">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29261940/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="P" package="3362P">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29261939/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="R" package="3362R">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29261938/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="U" package="3362U">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29261937/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="W" package="3362W">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29262013/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BOURNS_3362W-1-103LF" prefix="VR" urn="urn:adsk.eagle:component:29262014/2">
+<description>3362 - 1/4 ” Square Trimpot ®  Trimming Potentiometer</description>
+<gates>
+<gate name="G$0" symbol="BOURNS_3362W-1-103LF_0_0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="BOURNS_3362W-1-103LF_0_0" package="3362W">
+<connects>
+<connect gate="G$0" pin="CCW" pad="1"/>
+<connect gate="G$0" pin="CW" pad="3"/>
+<connect gate="G$0" pin="WIPER" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29262013/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CENTROID_NOT_SPECIFIED" value="No"/>
+<attribute name="DATASHEET" value="http://www.bourns.com/docs/Product-Datasheets/3362.pdf"/>
+<attribute name="DIGIKEY_DESCRIPTION" value="RES TRIMMER 10K OHM 0.5W PC PIN"/>
+<attribute name="DIGIKEY_PART_NUMBER" value="3362W-103LF-ND"/>
+<attribute name="LCPART" value="C124586" constant="no"/>
+<attribute name="LEAD_FREE" value="yes"/>
+<attribute name="MF" value="Bourns"/>
+<attribute name="MFG_PACKAGE_IDENT" value=""/>
+<attribute name="MOUSER_PART_NUMBER" value="652-3362W-1-103LF"/>
+<attribute name="MPN" value="3362W-1-103LF"/>
+<attribute name="PACKAGE" value="TRIMMER"/>
+<attribute name="PREFIX" value="VR"/>
+<attribute name="RESISTANCE" value="10kΩ"/>
+<attribute name="ROHS" value="yes"/>
+<attribute name="TEMPERATURE_RANGE_HIGH" value="+125°C"/>
+<attribute name="TEMPERATURE_RANGE_LOW" value="-55°C"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3386" prefix="R" uservalue="yes" urn="urn:adsk.eagle:component:29261958/1">
+<description>&lt;b&gt;3386 Series&lt;/b&gt;&lt;p&gt;
+3/8" Square Trimmer (Multi-Package F,P,K &amp; Y)</description>
+<gates>
+<gate name="1" symbol="TPOT-3U" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3386-MULTI">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
+<connect gate="1" pin="4" pad="4"/>
+<connect gate="1" pin="5" pad="5"/>
+<connect gate="1" pin="6" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29261956/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3296P-1-104LF" prefix="VR" urn="urn:adsk.eagle:component:40894772/3">
+<description>&lt;b&gt;Bourns 3296P Series 25-Turn Through Hole Cermet Trimmer Resistor with Pin Terminations, 100k +/-10% 1/2W +/-100ppm/C&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-10/DSA-187647.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPOT" x="7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="3296P1104LF">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40894771/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="16_POT" urn="urn:adsk.eagle:component:1235097/3">
+<description>mofuckin 16mm pot son standard AF 5mm pin spacing son</description>
+<gates>
+<gate name="G$1" symbol="POT_US-" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3RP/1610N">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="WIPER" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:1235096/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BOURNS_TRIMPOT" prefix="VR" urn="urn:adsk.eagle:component:27555559/4">
+<description>&lt;b&gt;Trimmer Resistors - Through Hole&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.mouser.com/datasheet/2/54/3386-776606.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPOT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="3386P" package="3386P1103TLF">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27555558/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="3386P-1-103TLF" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/3386p-1-103tlf/bourns" constant="no"/>
+<attribute name="DESCRIPTION" value="Trimmer Resistors - Through Hole" constant="no"/>
+<attribute name="HEIGHT" value="4.83mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="3386P-1-103TLF" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-3386P-1-103TLF" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Bourns/3386P-1-103TLF?qs=m2uG%2FFdTAPW0l2ELvsEvlA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="3362P" package="3362P">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29261939/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3296P" package="3296P1104LF">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:40894771/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BOURNS_FADER" prefix="VR" urn="urn:adsk.eagle:component:36878617/1">
+<description>&lt;b&gt;Bourns 1 Gang Slide Carbon Potentiometer with an 6 mm Dia. Shaft - 10k, +/-20%, 0.2W Power Rating, Linear, Through Hole&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/PTL.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PTL60-15G1-103B2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="PTL60" package="PTL6015G1103B2">
+<connects>
+<connect gate="G$1" pin="B_(+)" pad="B1"/>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="E_(-)" pad="E1"/>
+<connect gate="G$1" pin="L_DUMMY" pad="L1"/>
+<connect gate="G$1" pin="WIPER" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36878614/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Bourns 1 Gang Slide Carbon Potentiometer with an 6 mm Dia. Shaft - 10k, +/-20%, 0.2W Power Rating, Linear, Through Hole" constant="no"/>
+<attribute name="HEIGHT" value="22mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="PTL60-15G1-103B2" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-PTL60-15G1-103B2" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Bourns/PTL60-15G1-103B2?qs=XxajcJZMfNxADct0M%2FB1oA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PTL20" package="PTL2010R0103B2">
+<connects>
+<connect gate="G$1" pin="B_(+)" pad="B1"/>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="E_(-)" pad="E1"/>
+<connect gate="G$1" pin="L_DUMMY" pad="L1"/>
+<connect gate="G$1" pin="WIPER" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36878615/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="PTL30" package="PTL3010R0103B2">
+<connects>
+<connect gate="G$1" pin="B_(+)" pad="B1"/>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="E_(-)" pad="E1"/>
+<connect gate="G$1" pin="L_DUMMY" pad="L1"/>
+<connect gate="G$1" pin="WIPER" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:36878616/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TRIMPOT" prefix="VR" uservalue="yes" urn="urn:adsk.eagle:component:6731852/1">
+<description>&lt;h3&gt;Trimming Potentiometer (Trimpot)&lt;/h3&gt;
+&lt;p&gt;Three-terminal potentiometers, with an adjustable wiper and two adjustable resistors. A pot can be used to create a configurable voltage divider, or as a variable resistor.&lt;/p&gt;
+&lt;p&gt;"Trimpots" are a subset of potentiometers, usually intended for "set-and-forget" applications. They're often more delicate than standard potentiometers - rated for fewer turns.&lt;/p&gt;
+&lt;h4&gt;Variants&lt;/h4&gt;
+&lt;h5&gt;PTH-KNOB - PTH Trimpot w/ finger-adjustable knob&lt;/h5&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/9806"&gt;Trimpot 10K with Knob&lt;/a&gt; (COM-09806)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.sparkfun.com/datasheets/Components/General/TSR-3386.pdf"&gt;Datasheet&lt;/a&gt;
+&lt;/ul&gt;
+&lt;h5&gt;SMD-3MM-CLOSED-FRAME - SMD 3mm Square Closed-Frame Trimpot&lt;/h5&gt;
+&lt;ul&gt;&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/12779"&gt;EasyDriver - Stepper Motor Driver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.bitechnologies.com/pdfs/22.pdf"&gt;Datasheet&lt;/a&gt; (22AR10KTR)&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;SMD-5MM - SMD 5mm Square Closed-Frame Trimpot&lt;/h5&gt;
+&lt;ul&gt;&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/13613"&gt;IOIO-OTG - V2.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.vishay.com/docs/51008/ts53.pdf"&gt;Datasheet&lt;/a&gt; (TS53YL502MR10)&lt;/li&gt;&lt;/ul&gt;
+&lt;h5&gt;SMD-3MM-1/10W-25% - 3mm Square Open-Frame Trimpot&lt;/h5&gt;
+&lt;ul&gt;&lt;li&gt;Used on e.g. &lt;a href="https://www.sparkfun.com/products/13899"&gt;SparkFun Shapeoko&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.bourns.com/docs/Product-Datasheets/TC33.pdf"&gt;Datasheet&lt;/a&gt; (TC33X-2-103E)&lt;/li&gt;&lt;/ul&gt;</description>
+<gates>
+<gate name="R?" symbol="TRIMPOT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-PTH-10MM-KNOB-1/2W-10%" package="TRIMPOT-PTH-3386U">
+<connects>
+<connect gate="R?" pin="CCW" pad="1"/>
+<connect gate="R?" pin="CW" pad="3"/>
+<connect gate="R?" pin="WIPER" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39662/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-09730"/>
+<attribute name="SF_SKU" value="COM-09806"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-5MM-CLOSED-1/4W-20%" package="TRIMPOT-SMD-5MM">
+<connects>
+<connect gate="R?" pin="CCW" pad="A"/>
+<connect gate="R?" pin="CW" pad="C"/>
+<connect gate="R?" pin="WIPER" pad="B"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39663/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-11156"/>
+<attribute name="VALUE" value="5k"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-3MM-CLOSED-1/8W-20%" package="TRIMPOT-SMD-3MM-CLOSED">
+<connects>
+<connect gate="R?" pin="CCW" pad="1"/>
+<connect gate="R?" pin="CW" pad="3"/>
+<connect gate="R?" pin="WIPER" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39665/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-09285"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+<device name="-SMD-3MM-OPEN-1/10W-25%" package="TRIMPOT-SMD-TC33X">
+<connects>
+<connect gate="R?" pin="CCW" pad="3"/>
+<connect gate="R?" pin="CW" pad="1"/>
+<connect gate="R?" pin="WIPER" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39666/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-12428"/>
+<attribute name="VALUE" value="10k"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

@@ -1,0 +1,155 @@
+(footprint "SK6805-EC3210R"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "LED**"
+		(at -3.556 -2.032 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e7d3bf0f-0ba1-43b7-98a8-45707abfa7b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SK6805-EC3210R"
+		(at 0 4.064 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f989ee8c-f5cd-4779-816d-cc9cc6ab35e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a769cc90-f1e1-4b97-931b-6948e1d42eb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ea2d6584-7c48-432b-81cb-4b9f16dc764d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2b6d4b2-82e6-45f8-a06b-62ae61523433")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C5378735"
+		(at 0 -0.95 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "911ec7de-533e-435f-9d66-ab9e71403843")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_arc
+		(start 1.049999 0.65)
+		(mid 0.006064 1.479334)
+		(end -1.047124 0.661782)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f64dadea-6aaa-4b8e-8dfc-a5af5288147f")
+	)
+	(fp_circle
+		(center -0.474203 -0.4922)
+		(end -0.424203 -0.3922)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "91449ba2-afbb-49d3-85ed-37b323b23b55")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.032 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cfc5ada5-0893-4284-b7a1-4f924de9612b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.425 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "43417482-60cf-4861-8e1d-8b43cbf162be")
+	)
+	(pad "2" smd rect
+		(at -1.505 0.25 90)
+		(size 1 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "3f25a372-e799-4e1e-b00f-099cfd9ea7bd")
+	)
+	(pad "3" smd rect
+		(at 1.505 0.25 90)
+		(size 1 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "df566085-cc25-4aa1-9b7d-684b25019112")
+	)
+	(pad "4" smd rect
+		(at 0.425 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "b7854ac7-a1ff-4d22-b140-a751ad5138a8")
+	)
+	(model "${KICAD7_USER_3D}/SK6812 AdaFruit EC3210R.iges"
+		(offset
+			(xyz 2 -0.5 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

@@ -1,0 +1,238 @@
+(footprint "SK6805-SIDE-S"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "LED**"
+		(at -0.1 -1.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "063cac24-ab1f-4948-a9d4-20330a5ba2bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SK6805-SIDE-S"
+		(at -0.2 1.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8badbb00-d0b6-4ad3-8de9-25c917b9ddf4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.871307 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d745df22-1106-4d1b-82d1-5e280f1c78d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.871307 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15bac69d-611f-41ab-bd61-a785acf3a05b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.871307 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a415f256-39bb-4b32-9c59-54048e78a692")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2909057"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6cae34fb-1f59-4d5c-b2d4-14d7db561a66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 0.3)
+		(end -2 1.075)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0967df78-f91f-4c8d-90fd-dd82e984f98d")
+	)
+	(fp_line
+		(start -2 1.075)
+		(end 2 1.075)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "29e50085-7446-4934-95f5-42fc298d60bd")
+	)
+	(fp_line
+		(start -1.2 -0.25)
+		(end -0.1 -0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2236663d-0164-4395-8c82-5a07c71c801a")
+	)
+	(fp_line
+		(start 0.4 -0.25)
+		(end 0.75 -0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "893405f8-0875-4258-bd9d-852f691678b9")
+	)
+	(fp_line
+		(start 1.2 -0.25)
+		(end 1.55 -0.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "dbd1247d-c96e-42aa-b319-086d35698ba7")
+	)
+	(fp_line
+		(start 2 0.3)
+		(end 2 1.075)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7aee861c-1252-42d7-8508-de8695ba0f3d")
+	)
+	(fp_circle
+		(center -1.805914 -0.671528)
+		(end -1.755914 -0.571528)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "668092a0-c33f-49c3-adfa-51afa884abf7")
+	)
+	(fp_line
+		(start 1.562 -0.275)
+		(end 1.562 0.425)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "User.1")
+		(uuid "b2126725-3b81-4317-9c06-226c13e5300c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 3.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1d9e6ed0-5730-4ba2-988e-e305c360cd87")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -2.053325 -0.000364)
+		(size 0.4 0.55)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start 0.201582 -0.424636)
+				(end 0.850889 0.425364)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "be8ce14f-3115-4cf1-a295-2348d68218ec")
+	)
+	(pad "2" smd rect
+		(at 0.157039 0)
+		(size 0.45 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "66bbca46-4ebc-47e6-a09c-c9e15d0d5108")
+	)
+	(pad "3" smd rect
+		(at 0.957 0)
+		(size 0.45 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "f02baf43-8cdd-40d6-9eb9-8bf4bd86bb7c")
+	)
+	(pad "4" smd custom
+		(at 1.757 0)
+		(size 0.39 0.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_rect
+				(start 0.199658 -0.275)
+				(end 0.64 0.275)
+				(width 0.01)
+				(fill yes)
+			)
+		)
+		(uuid "37dfadef-d627-4dcf-b62f-3367ec8f56c6")
+	)
+	(model "${KICAD7_USER_3D}/SK6805_SIDE-E.step"
+		(offset
+			(xyz -2 -1 0.9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

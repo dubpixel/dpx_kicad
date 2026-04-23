@@ -1,0 +1,1071 @@
+{
+  "action_plugins": [
+    {
+      "/Users/yourmom/Documents/KiCad/8.0/3rdparty/plugins/com_github_gregdavill_KiBuzzard/plugin.py/KiBuzzardPlugin": true
+    },
+    {
+      "/Users/yourmom/Documents/KiCad/8.0/3rdparty/plugins/com_github_MitjaNemec_SwapStubs/action_swap_stubs.py/SwapStubs": false
+    },
+    {
+      "/Users/yourmom/Documents/KiCad/8.0/3rdparty/plugins/com_github_30350n_pcb2blender/__init__.py/Pcb2BlenderExporter": true
+    },
+    {
+      "/Users/yourmom/Documents/KiCad/8.0/3rdparty/plugins/com_github_adamws_kicad-git/git_plugin_action.py/GitPluginAction": true
+    },
+    {
+      "/Users/yourmom/Documents/KiCad/8.0/3rdparty/plugins/com_github_mitxela_kicad-round-tracks/round_tracks_action.py/ActionRoundTracks": true
+    },
+    {
+      "/Users/yourmom/Documents/KiCad/8.0/3rdparty/plugins/com_github_MitjaNemec_PlaceFootprints/action_place_footprints.py/PlaceFootprints": true
+    },
+    {
+      "/Users/yourmom/Documents/KiCad/8.0/3rdparty/plugins/org_openscopeproject_InteractiveHtmlBom/ecad/kicad.py/InteractiveHtmlBomPlugin": true
+    },
+    {
+      "/Users/yourmom/Documents/KiCad/8.0/3rdparty/plugins/com_github_bouni_kicad-jlcpcb-tools/plugin.py/JLCPCBPlugin": true
+    },
+    {
+      "/Users/yourmom/Documents/KiCad/8.0/3rdparty/plugins/org_openscopeproject_TransformIt/plugin.py/TransformItPlugin": true
+    },
+    {
+      "/Users/yourmom/Documents/KiCad/8.0/3rdparty/plugins/com_github_Steffen-W_impartGUI/__init__.py/ActionImpartPlugin": true
+    },
+    {
+      "/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/kikit/actionPlugins/hideReferences.py/HideReferencesPlugin": true
+    },
+    {
+      "/Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/kikit/actionPlugins/panelize.py/PanelizePlugin": true
+    },
+    {
+      "/Users/yourmom/Documents/KiCad/8.0/3rdparty/plugins/com_github_adamws_kicad-kbplacer/kbplacer_plugin_action.py/KbplacerPluginAction": true
+    },
+    {
+      "/Users/yourmom/Documents/KiCad/8.0/3rdparty/plugins/com_github_HaydenHu_kicad-text-postion-size/TextPosSize.py/TextPosSize": true
+    },
+    {
+      "/Users/yourmom/Documents/KiCad/8.0/3rdparty/plugins/com_github_TheJigsApp_kicadtestpoints-pcm/plugin.py/Plugin": true
+    },
+    {
+      "/Users/yourmom/Documents/KiCad/8.0/3rdparty/plugins/com_github_MitjaNemec_Archive3DModels/action_archive_3d_models.py/Archive3DModels": false
+    },
+    {
+      "/Users/yourmom/Documents/KiCad/8.0/3rdparty/plugins/com_github_aislerhq_PushForKiCad/plugin.py/PushForKiCadPlugin": true
+    },
+    {
+      "/Users/yourmom/Documents/KiCad/8.0/3rdparty/plugins/com_github_Huaqiu-Electronics_kicad-hqsearch-plugin/kicad_search_plugin/plugin/kicad_amf_action_plugin.py/KiCadAmfActionPlugin": true
+    },
+    {
+      "/Users/yourmom/Documents/KiCad/8.0/3rdparty/plugins/com_github_ulikoehler_kicad-bulk-hide-silkscreen-designators/bulk_hide_silkscreen_designators_action.py/BulkHideSilkscreenDesignators": true
+    },
+    {
+      "/Users/yourmom/Documents/KiCad/8.0/3rdparty/plugins/com_github_jsreynaud_kicad-action-scripts/CircularZone/CircularZone.py/CircularZone": true
+    },
+    {
+      "/Users/yourmom/Documents/KiCad/8.0/3rdparty/plugins/com_github_jsreynaud_kicad-action-scripts/ViaStitching/FillAreaAction.py/FillAreaAction": true
+    }
+  ],
+  "appearance": {
+    "color_theme": "user"
+  },
+  "aui": {
+    "appearance_expand_layer_display": true,
+    "appearance_expand_net_display": false,
+    "appearance_panel_tab": 0,
+    "properties_panel_width": 20,
+    "properties_splitter_proportion": 0.5,
+    "right_panel_width": 240,
+    "search_panel_dock_direction": 3,
+    "search_panel_height": 100,
+    "search_panel_width": 643,
+    "show_layer_manager": true,
+    "show_properties": false,
+    "show_search": true
+  },
+  "cleanup": {
+    "cleanup_short_circuits": true,
+    "cleanup_tracks_in_pad": false,
+    "cleanup_unconnected": true,
+    "cleanup_vias": true,
+    "delete_dangling_vias": true,
+    "merge_segments": true
+  },
+  "color_picker": {
+    "default_tab": 0
+  },
+  "cross_probing": {
+    "auto_highlight": true,
+    "center_on_items": true,
+    "on_selection": true,
+    "zoom_to_fit": true
+  },
+  "drc_dialog": {
+    "refill_zones": true,
+    "severities": 36,
+    "test_all_track_errors": false,
+    "test_footprints": false
+  },
+  "editing": {
+    "allow_free_pads": false,
+    "arc_edit_mode": 0,
+    "auto_fill_zones": false,
+    "ctrl_click_highlight": false,
+    "esc_clears_net_highlight": true,
+    "flip_left_right": true,
+    "magnetic_all_layers": false,
+    "magnetic_graphics": true,
+    "magnetic_pads": 1,
+    "magnetic_tracks": 1,
+    "pcb_use_45_degree_limit": true,
+    "polar_coords": false,
+    "rotation_angle": 150,
+    "show_courtyard_collisions": true,
+    "track_drag_action": 1
+  },
+  "export_2581": {
+    "compress": false,
+    "precision": 3,
+    "units": 0,
+    "version": 1
+  },
+  "export_idf": {
+    "auto_adjust": false,
+    "ref_units": 0,
+    "ref_x": 0.0,
+    "ref_y": 0.0,
+    "units_mils": false
+  },
+  "export_step": {
+    "no_dnp": false,
+    "no_unspecified": false,
+    "no_virtual": false,
+    "origin_mode": 1,
+    "origin_units": 0,
+    "origin_x": 0.0,
+    "origin_y": 0.0,
+    "overwrite_file": true,
+    "replace_models": true
+  },
+  "export_svg": {
+    "black_and_white": true,
+    "color_theme": "KiCad Classic",
+    "layers": [
+      37,
+      39,
+      44,
+      49
+    ],
+    "mirror": false,
+    "one_file": false,
+    "output_dir": "",
+    "page_size": 2,
+    "plot_board_edges": true,
+    "use_theme": true
+  },
+  "export_vrml": {
+    "copy_3d_models": true,
+    "origin_mode": 0,
+    "ref_units": 0,
+    "ref_x": 0.0,
+    "ref_y": 0.0,
+    "units": 1,
+    "use_relative_paths": true
+  },
+  "find_replace": {
+    "find_history": [
+      "h1"
+    ],
+    "find_string": "h1",
+    "match_case": false,
+    "match_mode": 0,
+    "replace_history": [],
+    "replace_string": "",
+    "search_and_replace": false
+  },
+  "footprint_chooser": {
+    "filter_on_pin_count": false,
+    "height": 1068,
+    "sash_h": 1334,
+    "sash_v": 594,
+    "sort_mode": 0,
+    "use_fp_filters": false,
+    "width": 1710
+  },
+  "footprint_viewer": {
+    "autozoom": true,
+    "cursor": {
+      "always_show_cursor": false,
+      "fullscreen_cursor": false
+    },
+    "display": 0,
+    "fp_list_width": 300,
+    "grid": {
+      "axes_enabled": false,
+      "fast_grid_1": 4,
+      "fast_grid_2": 5,
+      "last_size": 4,
+      "line_width": 1.0,
+      "min_spacing": 10.0,
+      "override_connected": false,
+      "override_connected_idx": 16,
+      "override_graphics": false,
+      "override_graphics_idx": 15,
+      "override_text": false,
+      "override_text_idx": 18,
+      "override_vias": false,
+      "override_vias_idx": 18,
+      "override_wires": false,
+      "override_wires_idx": 19,
+      "overrides_enabled": false,
+      "show": true,
+      "sizes": [
+        {
+          "name": "",
+          "x": "1000 mil",
+          "y": "1000 mil"
+        },
+        {
+          "name": "",
+          "x": "500 mil",
+          "y": "500 mil"
+        },
+        {
+          "name": "",
+          "x": "250 mil",
+          "y": "250 mil"
+        },
+        {
+          "name": "",
+          "x": "200 mil",
+          "y": "200 mil"
+        },
+        {
+          "name": "",
+          "x": "100 mil",
+          "y": "100 mil"
+        },
+        {
+          "name": "",
+          "x": "50 mil",
+          "y": "50 mil"
+        },
+        {
+          "name": "",
+          "x": "25 mil",
+          "y": "25 mil"
+        },
+        {
+          "name": "",
+          "x": "20 mil",
+          "y": "20 mil"
+        },
+        {
+          "name": "",
+          "x": "10 mil",
+          "y": "10 mil"
+        },
+        {
+          "name": "",
+          "x": "5 mil",
+          "y": "5 mil"
+        },
+        {
+          "name": "",
+          "x": "2 mil",
+          "y": "2 mil"
+        },
+        {
+          "name": "",
+          "x": "1 mil",
+          "y": "1 mil"
+        },
+        {
+          "name": "",
+          "x": "5.0 mm",
+          "y": "5.0 mm"
+        },
+        {
+          "name": "",
+          "x": "2.5 mm",
+          "y": "2.5 mm"
+        },
+        {
+          "name": "",
+          "x": "1.0 mm",
+          "y": "1.0 mm"
+        },
+        {
+          "name": "",
+          "x": "0.5 mm",
+          "y": "0.5 mm"
+        },
+        {
+          "name": "",
+          "x": "0.25 mm",
+          "y": "0.25 mm"
+        },
+        {
+          "name": "",
+          "x": "0.2 mm",
+          "y": "0.2 mm"
+        },
+        {
+          "name": "",
+          "x": "0.1 mm",
+          "y": "0.1 mm"
+        },
+        {
+          "name": "",
+          "x": "0.05 mm",
+          "y": "0.05 mm"
+        },
+        {
+          "name": "",
+          "x": "0.025 mm",
+          "y": "0.025 mm"
+        },
+        {
+          "name": "",
+          "x": "0.01 mm",
+          "y": "0.01 mm"
+        }
+      ],
+      "snap": 0,
+      "style": 0,
+      "user_grid_x": "10 mil",
+      "user_grid_y": "10 mil"
+    },
+    "lib_list_width": 200,
+    "maximized": false,
+    "mru_path": "/Users/yourmom/Documents/KiCad/8.0/projects",
+    "perspective": "layout2|",
+    "pos_x": 119,
+    "pos_y": 348,
+    "size_x": 1710,
+    "size_y": 1068,
+    "zoom": 22.08416086291147,
+    "zoom_factors": []
+  },
+  "footprint_wizard": {
+    "cursor": {
+      "always_show_cursor": true,
+      "fullscreen_cursor": false
+    },
+    "display": 0,
+    "grid": {
+      "axes_enabled": false,
+      "fast_grid_1": 4,
+      "fast_grid_2": 5,
+      "last_size": 4,
+      "line_width": 1.0,
+      "min_spacing": 10.0,
+      "override_connected": false,
+      "override_connected_idx": 16,
+      "override_graphics": false,
+      "override_graphics_idx": 15,
+      "override_text": false,
+      "override_text_idx": 18,
+      "override_vias": false,
+      "override_vias_idx": 18,
+      "override_wires": false,
+      "override_wires_idx": 19,
+      "overrides_enabled": false,
+      "show": true,
+      "sizes": [
+        {
+          "name": "",
+          "x": "1000 mil",
+          "y": "1000 mil"
+        },
+        {
+          "name": "",
+          "x": "500 mil",
+          "y": "500 mil"
+        },
+        {
+          "name": "",
+          "x": "250 mil",
+          "y": "250 mil"
+        },
+        {
+          "name": "",
+          "x": "200 mil",
+          "y": "200 mil"
+        },
+        {
+          "name": "",
+          "x": "100 mil",
+          "y": "100 mil"
+        },
+        {
+          "name": "",
+          "x": "50 mil",
+          "y": "50 mil"
+        },
+        {
+          "name": "",
+          "x": "25 mil",
+          "y": "25 mil"
+        },
+        {
+          "name": "",
+          "x": "20 mil",
+          "y": "20 mil"
+        },
+        {
+          "name": "",
+          "x": "10 mil",
+          "y": "10 mil"
+        },
+        {
+          "name": "",
+          "x": "5 mil",
+          "y": "5 mil"
+        },
+        {
+          "name": "",
+          "x": "2 mil",
+          "y": "2 mil"
+        },
+        {
+          "name": "",
+          "x": "1 mil",
+          "y": "1 mil"
+        },
+        {
+          "name": "",
+          "x": "5.0 mm",
+          "y": "5.0 mm"
+        },
+        {
+          "name": "",
+          "x": "2.5 mm",
+          "y": "2.5 mm"
+        },
+        {
+          "name": "",
+          "x": "1.0 mm",
+          "y": "1.0 mm"
+        },
+        {
+          "name": "",
+          "x": "0.5 mm",
+          "y": "0.5 mm"
+        },
+        {
+          "name": "",
+          "x": "0.25 mm",
+          "y": "0.25 mm"
+        },
+        {
+          "name": "",
+          "x": "0.2 mm",
+          "y": "0.2 mm"
+        },
+        {
+          "name": "",
+          "x": "0.1 mm",
+          "y": "0.1 mm"
+        },
+        {
+          "name": "",
+          "x": "0.05 mm",
+          "y": "0.05 mm"
+        },
+        {
+          "name": "",
+          "x": "0.025 mm",
+          "y": "0.025 mm"
+        },
+        {
+          "name": "",
+          "x": "0.01 mm",
+          "y": "0.01 mm"
+        }
+      ],
+      "snap": 0,
+      "style": 0,
+      "user_grid_x": "10 mil",
+      "user_grid_y": "10 mil"
+    },
+    "maximized": false,
+    "mru_path": "",
+    "perspective": "",
+    "pos_x": 0,
+    "pos_y": 0,
+    "size_x": 0,
+    "size_y": 0,
+    "zoom_factors": []
+  },
+  "footprint_wizard_list": {
+    "height": -1,
+    "width": -1
+  },
+  "gen_drill": {
+    "drill_file_type": 0,
+    "map_file_type": 1,
+    "merge_pth_npth": false,
+    "minimal_header": false,
+    "mirror": false,
+    "unit_drill_is_inch": true,
+    "use_route_for_oval_holes": true,
+    "zeros_format": 0
+  },
+  "graphics": {
+    "canvas_type": 1,
+    "highlight_factor": 0.5,
+    "select_factor": 0.75
+  },
+  "import_graphics": {
+    "dxf_units": 2,
+    "fix_discontinuities": false,
+    "group_items": true,
+    "interactive_placement": true,
+    "layer": 37,
+    "line_width": 0.2,
+    "line_width_units": 0,
+    "origin_units": 0,
+    "origin_x": 0.0,
+    "origin_y": 0.0,
+    "tolerance": 1.0,
+    "use_dlg_layer_selection": true
+  },
+  "lib_tree": {
+    "column_widths": {
+      "Description": 739,
+      "Item": 541
+    },
+    "columns": [
+      "Item",
+      "Description"
+    ],
+    "open_libs": [
+      "DPX_CONN",
+      "DPX_LED",
+      "DPX_USB",
+      "DPX_IC",
+      "DPX_DUMP",
+      "DPX_LIBRARY",
+      "Samacsys-Automatic",
+      "DPX_CONTROL",
+      "DPX_DIODE",
+      "DPX_PASSIVES",
+      "EasyEda-Automatic",
+      "Package_BGA",
+      "PCM_4ms_LED",
+      "Battery",
+      "Display",
+      "Package_SO",
+      "TerminalBlock_Phoenix",
+      "SparkFun-Electromechanical",
+      "Package_DIP",
+      "Calibration_Scale",
+      "Fuse",
+      "Resistor_SMD",
+      "TerminalBlock",
+      "TerminalBlock_TE-Connectivity",
+      "Connector_TE-Connectivity",
+      "TerminalBlock_RND",
+      "Connector_BarrelJack",
+      "Connector_PinHeader_2.00mm",
+      "Connector_PinHeader_2.54mm",
+      "Connector_PinSocket_2.00mm",
+      "Connector_PinSocket_2.54mm",
+      "Inductor_THT",
+      "Resistor_THT",
+      "LED_THT",
+      "Connector_Dsub",
+      "Capacitor_THT",
+      "Connector_PinHeader_1.27mm",
+      "Connector_PinSocket_1.27mm",
+      "Converter_DCDC",
+      "Diode_THT",
+      "Package_TO_SOT_SMD",
+      "TerminalBlock_MetzConnect",
+      "RF_Module",
+      "Oscillator",
+      "Connector_IDC",
+      "Package_TO_SOT_THT",
+      "PCM_4ms_Connector",
+      "PCM_4ms_Diode",
+      "TerminalBlock_4Ucon",
+      "TerminalBlock_Philmore",
+      "TerminalBlock_WAGO",
+      "Transformer_SMD",
+      "Transformer_THT",
+      "Heatsink",
+      "PCM_4ms_Package_DIP",
+      "Button_Switch_SMD",
+      "Connector_Phoenix_SPT",
+      "Connector_Wuerth",
+      "Converter_ACDC",
+      "Inductor_SMD",
+      "MountingHole",
+      "Mounting_Wuerth",
+      "Package_LGA",
+      "Package_SON",
+      "PCM_4ms_Converter_DCDC",
+      "PCM_4ms_Package_TO",
+      "Relay_THT",
+      "RF_Converter",
+      "Sensor_Distance",
+      "NS20",
+      "Package_DFN_QFN",
+      "LED_SMD",
+      "Button_Switch_Keyboard",
+      "Buzzer_Beeper",
+      "Connector_DIN",
+      "Connector_FFC-FPC",
+      "Connector_PinHeader_1.00mm",
+      "Connector_PinSocket_1.00mm",
+      "Connector_RJ",
+      "Connector_USB",
+      "Connector_Wire",
+      "Diode_SMD",
+      "Ferrite_THT",
+      "Module",
+      "OptoDevice",
+      "Package_CSP",
+      "Package_QFP",
+      "PCM_4ms_Capacitor",
+      "PCM_4ms_Switch",
+      "Potentiometer_THT",
+      "RF_Mini-Circuits",
+      "Sensor",
+      "Sensor_Current",
+      "Socket",
+      "KiCad-SSD1306-0.91-OLED-4pin-128x32",
+      "maholi_custom-footprints",
+      "Button_Switch_THT",
+      "Connector",
+      "Connector_Harwin",
+      "Connector_Hirose",
+      "Connector_JST",
+      "Connector_Molex",
+      "Connector_Phoenix_GMSTB",
+      "Connector_Phoenix_MC",
+      "Connector_Phoenix_MC_HighVoltage",
+      "Connector_Phoenix_MSTB",
+      "Connector_Samtec_HPM_THT",
+      "Crystal",
+      "Espressif",
+      "Filter",
+      "Package_DirectFET",
+      "Package_SIP",
+      "PCM_4ms_Package_QFP",
+      "PCM_4ms_Package_SOT",
+      "Potentiometer_SMD",
+      "Relay_SMD",
+      "RF_GPS",
+      "RF_GSM",
+      "RF_WiFi",
+      "Sensor_Audio",
+      "Transistor_Power",
+      "Valve",
+      "Capacitor_SMD",
+      "PCM_4ms_Package_SOIC",
+      "RF_Antenna",
+      "PCM_4ms_Package_SSOP",
+      "Sensor_Motion",
+      "teensy",
+      "Transistor_Power_Module",
+      "Capacitor_Tantalum_SMD",
+      "Connector_AMASS",
+      "Connector_Audio",
+      "Connector_Card",
+      "Connector_Coaxial",
+      "Connector_Harting",
+      "Connector_JAE",
+      "Connector_PCBEdge",
+      "Connector_Pin",
+      "Connector_Samtec",
+      "Connector_Samtec_HLE_SMD",
+      "Connector_Samtec_HLE_THT",
+      "Connector_Samtec_HSEC8",
+      "Connector_SATA_SAS",
+      "Connector_Stocko",
+      "Connector_Wago",
+      "Display_7Segment",
+      "dpx-SMT-vreg-trans",
+      "DPX_FILAMENT_TOUCH_LAMP_0dot7",
+      "Fiducial",
+      "Inductor_SMD_Wurth",
+      "Inductor_THT_Wurth",
+      "Jumper",
+      "Motors",
+      "MountingEquipment",
+      "NetTie",
+      "Package_LCC",
+      "Package_SO_J-Lead",
+      "PCM_4ms_Jack",
+      "PCM_4ms_Resistor",
+      "RF_Shielding",
+      "Rotary_Encoder",
+      "Samacsys",
+      "Sensor_Humidity",
+      "Sensor_Pressure",
+      "Sensor_Voltage",
+      "Symbol",
+      "TestPoint",
+      "Varistor",
+      "Connector_Samtec_MicroMate",
+      "EasyEDA",
+      "led",
+      "PCM_4ms_Crystal",
+      "PCM_4ms_Display",
+      "PCM_4ms_Encoder",
+      "PCM_4ms_Experimental_FP",
+      "PCM_4ms_Faceplate",
+      "PCM_4ms_Hardware",
+      "PCM_4ms_Inductor",
+      "PCM_4ms_Potentiometer",
+      "PCM_4ms_SolderJumper",
+      "switch",
+      "TerminalBlock_Altech",
+      "TerminalBlock_Dinkle"
+    ]
+  },
+  "meta": {
+    "version": 5
+  },
+  "net_inspector_dialog": {
+    "col_order": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "col_widths": [
+      55,
+      83,
+      79,
+      74,
+      109,
+      109,
+      109,
+      109,
+      109,
+      0
+    ],
+    "dlg_height": 520,
+    "dlg_width": 960,
+    "group_by": false,
+    "group_by_kind": 0,
+    "group_by_text": "",
+    "show_zero_pad_nets": true,
+    "sort_ascending": true,
+    "sorting_column": -1
+  },
+  "netlist": {
+    "associate_by_ref_sch": true,
+    "delete_extra_footprints": true,
+    "delete_shorting_tracks": false,
+    "report_filter": 61,
+    "update_footprints": true
+  },
+  "pcb_display": {
+    "force_show_fields_when_fp_selected": true,
+    "graphic_items_fill": true,
+    "graphics_fill": true,
+    "live_3d_refresh": false,
+    "max_links_shown": 3,
+    "net_names_mode": 3,
+    "origin_invert_x_axis": false,
+    "origin_invert_y_axis": false,
+    "origin_mode": 0,
+    "pad_clearance": true,
+    "pad_fill": true,
+    "pad_numbers": true,
+    "ratsnest_curved": false,
+    "ratsnest_footprint": true,
+    "ratsnest_global": true,
+    "ratsnest_thickness": 0.5,
+    "show_page_borders": true,
+    "text_fill": true,
+    "track_clearance_mode": 2,
+    "track_fill": true,
+    "via_fill": true
+  },
+  "place_file": {
+    "excludeTH": false,
+    "file_format": 0,
+    "file_options": 0,
+    "include_board_edge": false,
+    "negate_xcoord": false,
+    "onlySMD": false,
+    "output_directory": "",
+    "units": 1,
+    "use_place_file_origin": true
+  },
+  "plot": {
+    "all_layers_on_one_page": 1,
+    "as_item_checkboxes": false,
+    "check_zones_before_plotting": true,
+    "edgecut_on_all_layers": true,
+    "fine_scale_x": 1.0,
+    "fine_scale_y": 1.0,
+    "mirror": false,
+    "pads_drill_mode": 2,
+    "ps_fine_width_adjust": 1e-06
+  },
+  "printing": {
+    "background": false,
+    "color_theme": "",
+    "layers": [],
+    "monochrome": true,
+    "scale": 1.0,
+    "title_block": false,
+    "use_theme": false
+  },
+  "reannotate_dialog": {
+    "annotate_back_prefix": "",
+    "annotate_back_refdes_start": "",
+    "annotate_choice": 3,
+    "annotate_exclude_list": "",
+    "annotate_exclude_locked": false,
+    "annotate_front_prefix": "",
+    "annotate_front_refdes_start": "1",
+    "annotate_grid_index": 0,
+    "annotate_remove_back_prefix": false,
+    "annotate_remove_front_prefix": false,
+    "annotate_report_file_name": "/Users/yourmom/Library/CloudStorage/GoogleDrive-i@dubpixel.tv/My Drive/_.DUBPIXEL/_...CIRCUIT_PROJECTS/DPX_SAO_SCREEN/hardware/src/dpx_sao_screen/report.txt",
+    "annotate_report_severity": 0,
+    "annotate_sort_code": 0,
+    "annotate_sort_on_modules": true
+  },
+  "system": {
+    "file_history": [
+      "/Users/yourmom/Library/CloudStorage/GoogleDrive-i@dubpixel.tv/My Drive/_.DUBPIXEL/_...CIRCUIT_PROJECTS/ZZ_ARCHIVE/EYEPATCH/170_test_2020/170-led-ws2020sch.kicad_pcb",
+      "/Users/yourmom/Library/CloudStorage/GoogleDrive-i@dubpixel.tv/My Drive/_.DUBPIXEL/_...CIRCUIT_PROJECTS/DPX_ESP32_OPS/hardware/src/WROOM/DPX-ESP32_OPS.kicad_pcb",
+      "/Users/yourmom/Library/CloudStorage/GoogleDrive-i@dubpixel.tv/My Drive/_.DUBPIXEL/_...CIRCUIT_PROJECTS/DPX_ESP32_WROOM/hardware/src/WROOM/DPX-ESP32_WROOM.kicad_pcb",
+      "/Users/yourmom/Library/CloudStorage/GoogleDrive-i@dubpixel.tv/My Drive/_.DUBPIXEL/_...CIRCUIT_PROJECTS/DPX_RGM_PENDANT/hardware/src/dpx_rgm_pendant/DPX_RGM_PENDANT.kicad_pcb",
+      "/Users/yourmom/Library/CloudStorage/GoogleDrive-i@dubpixel.tv/My Drive/_.DUBPIXEL/_...CIRCUIT_PROJECTS/DPX_2040/hardware/src/DPX_2040/dpx_2040.kicad_pcb",
+      "/Users/yourmom/Library/CloudStorage/GoogleDrive-i@dubpixel.tv/My Drive/_.DUBPIXEL/_...CIRCUIT_PROJECTS/DPX_BIZ/hardware/src/dpx_bizcard_v2/dpx_bizcard.kicad_pcb",
+      "/Users/yourmom/Library/CloudStorage/GoogleDrive-i@dubpixel.tv/My Drive/_.DUBPIXEL/_...CIRCUIT_PROJECTS/DPX_XR2206_funcgen/src/DPX_XR2206.kicad_pcb",
+      "/Users/yourmom/Library/CloudStorage/GoogleDrive-i@dubpixel.tv/My Drive/_.DUBPIXEL/_...CIRCUIT_PROJECTS/DPX_SOLDER_555/src/solder_challenge_555.kicad_pcb",
+      "/Users/yourmom/Library/CloudStorage/GoogleDrive-i@dubpixel.tv/My Drive/_.DUBPIXEL/_...CIRCUIT_PROJECTS/DPX_BATBST_IP5306/hardware/src/dpx_batbst_IP5306/dpx_batbst_IP5306.kicad_pcb"
+    ],
+    "first_run_shown": false,
+    "last_footprint3d_dir": "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes",
+    "last_footprint_lib_dir": "/Users/yourmom/Library/CloudStorage/GoogleDrive-i@dubpixel.tv/My Drive/_.DUBPIXEL/_...CIRCUIT_PROJECTS/DPX_KICAD/zusr_foot",
+    "last_imperial_units": 5,
+    "last_metric_units": 1,
+    "max_undo_items": 0,
+    "show_import_issues": true,
+    "units": 1
+  },
+  "tools": {
+    "pns": {
+      "auto_posture": true,
+      "can_violate_drc": true,
+      "corner_mode": 0,
+      "effort": 1,
+      "fix_all_segments": true,
+      "follow_mouse": true,
+      "free_angle_mode": false,
+      "jump_over_obstacles": false,
+      "meta": {
+        "version": 0
+      },
+      "mode": 0,
+      "optimize_dragged_track": false,
+      "remove_loops": true,
+      "shove_iteration_limit": 250,
+      "shove_time_limit": 1000,
+      "shove_vias": true,
+      "smart_pads": true,
+      "smooth_dragged_segments": true,
+      "snap_to_pads": true,
+      "snap_to_tracks": true,
+      "start_diagonal": false,
+      "suggest_finish": false,
+      "via_force_prop_iteration_limit": 40,
+      "walkaround_hug_length_threshold": 1.5,
+      "walkaround_iteration_limit": 40
+    }
+  },
+  "window": {
+    "cursor": {
+      "always_show_cursor": true,
+      "fullscreen_cursor": false
+    },
+    "display": 0,
+    "footprint_text_shown_columns": "0 1 2 3 4 5 6",
+    "grid": {
+      "axes_enabled": false,
+      "fast_grid_1": 4,
+      "fast_grid_2": 5,
+      "last_size": 22,
+      "line_width": 1.0,
+      "min_spacing": 10.0,
+      "override_connected": false,
+      "override_connected_idx": 16,
+      "override_graphics": false,
+      "override_graphics_idx": 15,
+      "override_text": false,
+      "override_text_idx": 18,
+      "override_vias": false,
+      "override_vias_idx": 18,
+      "override_wires": false,
+      "override_wires_idx": 19,
+      "overrides_enabled": false,
+      "show": true,
+      "sizes": [
+        {
+          "name": "",
+          "x": "1000 mil",
+          "y": "1000 mil"
+        },
+        {
+          "name": "",
+          "x": "500 mil",
+          "y": "500 mil"
+        },
+        {
+          "name": "",
+          "x": "250 mil",
+          "y": "250 mil"
+        },
+        {
+          "name": "",
+          "x": "200 mil",
+          "y": "200 mil"
+        },
+        {
+          "name": "",
+          "x": "100 mil",
+          "y": "100 mil"
+        },
+        {
+          "name": "",
+          "x": "50 mil",
+          "y": "50 mil"
+        },
+        {
+          "name": "",
+          "x": "25 mil",
+          "y": "25 mil"
+        },
+        {
+          "name": "",
+          "x": "20 mil",
+          "y": "20 mil"
+        },
+        {
+          "name": "",
+          "x": "10 mil",
+          "y": "10 mil"
+        },
+        {
+          "name": "",
+          "x": "5 mil",
+          "y": "5 mil"
+        },
+        {
+          "name": "",
+          "x": "2 mil",
+          "y": "2 mil"
+        },
+        {
+          "name": "",
+          "x": "1 mil",
+          "y": "1 mil"
+        },
+        {
+          "name": "",
+          "x": "5.0 mm",
+          "y": "5.0 mm"
+        },
+        {
+          "name": "",
+          "x": "2.5 mm",
+          "y": "2.5 mm"
+        },
+        {
+          "name": "",
+          "x": "1.0 mm",
+          "y": "1.0 mm"
+        },
+        {
+          "name": "",
+          "x": "0.5 mm",
+          "y": "0.5 mm"
+        },
+        {
+          "name": "",
+          "x": "0.25 mm",
+          "y": "0.25 mm"
+        },
+        {
+          "name": "",
+          "x": "0.2 mm",
+          "y": "0.2 mm"
+        },
+        {
+          "name": "",
+          "x": "0.1 mm",
+          "y": "0.1 mm"
+        },
+        {
+          "name": "",
+          "x": "0.05 mm",
+          "y": "0.05 mm"
+        },
+        {
+          "name": "",
+          "x": "0.025 mm",
+          "y": "0.025 mm"
+        },
+        {
+          "name": "",
+          "x": "0.01 mm",
+          "y": "0.01 mm"
+        },
+        {
+          "name": "User Grid",
+          "x": "10 mil",
+          "y": "10 mil"
+        }
+      ],
+      "snap": 0,
+      "style": 0,
+      "user_grid_x": "",
+      "user_grid_y": ""
+    },
+    "maximized": false,
+    "mru_path": "/Users/yourmom/Library/CloudStorage/GoogleDrive-i@dubpixel.tv/My Drive/_.DUBPIXEL/_...CIRCUIT_PROJECTS/ZZ_ARCHIVE/EYEPATCH/170_test_2020",
+    "perspective": "layout2|name=MainToolbar;caption=;state=139632;dir=1;layer=6;row=0;pos=0;prop=100000;bestw=1090;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=AuxToolbar;caption=;state=139644;dir=1;layer=5;row=0;pos=0;prop=100000;bestw=1009;besth=34;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=MsgPanel;caption=;state=131452;dir=3;layer=6;row=0;pos=0;prop=100000;bestw=400;besth=26;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=OptToolbar;caption=;state=139596;dir=4;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=670;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ToolsToolbar;caption=;state=139596;dir=2;layer=3;row=0;pos=0;prop=100000;bestw=34;besth=675;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayersManager;caption=Appearance;state=1532;dir=2;layer=4;row=0;pos=0;prop=100000;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectionFilter;caption=Selection Filter;state=1532;dir=2;layer=4;row=0;pos=1;prop=0;bestw=180;besth=-1;minw=180;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=PropertiesManager;caption=Properties;state=1534;dir=4;layer=5;row=0;pos=0;prop=100000;bestw=300;besth=200;minw=240;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DrawFrame;caption=;state=1020;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=400;besth=168;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Search;caption=Search;state=2098684;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=180;besth=100;minw=180;minh=60;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=480;floath=200|dock_size(1,6,0)=34|dock_size(1,5,0)=34|dock_size(3,6,0)=26|dock_size(4,3,0)=34|dock_size(2,3,0)=34|dock_size(2,4,0)=240|dock_size(5,0,0)=287|dock_size(3,0,0)=117|",
+    "pos_x": 8,
+    "pos_y": 47,
+    "size_x": 958,
+    "size_y": 1052,
+    "zoom_factors": [
+      0.13,
+      0.22,
+      0.35,
+      0.6,
+      1.0,
+      1.5,
+      2.2,
+      3.5,
+      5.0,
+      8.0,
+      13.0,
+      20.0,
+      35.0,
+      50.0,
+      80.0,
+      130.0,
+      220.0,
+      300.0
+    ]
+  },
+  "zones": {
+    "net_sort_mode": 2
+  }
+}
